@@ -777,7 +777,7 @@ div {
     left:259px;
     top:210px;
     width:246px;
-    height:96px;
+    height:128px;
     ;
     ;
     ;
@@ -988,7 +988,7 @@ div {
     left:683px;
     top:209px;
     width:246px;
-    height:96px;
+    height:128px;
     ;
     ;
     ;
@@ -2132,6 +2132,20 @@ div {
     top:6px;
     width:162px;
     height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u122 {
+    position:absolute;
+    left:756px;
+    top:46px;
+    width:173px;
+    height:28px;
     ;
     ;
     ;
