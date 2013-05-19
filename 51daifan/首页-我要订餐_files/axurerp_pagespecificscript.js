@@ -20,7 +20,7 @@ $axure.eventManager.click('u158', function(e) {
 
 if (true) {
 
-	self.location.href='#';
+	self.location.href='http://qian.github.io/wenwen/51daifan/51daifan_prd_v1.0.xlsx';
 
 }
 });
