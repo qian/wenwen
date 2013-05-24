@@ -40,7 +40,7 @@ $axure.eventManager.click('u13', function(e) {
 
 if (true) {
 
-	self.location.href=$axure.globalVariableProvider.getLinkUrl('我的订单.html');
+	self.location.href=$axure.globalVariableProvider.getLinkUrl('我的订单_1.html');
 
 }
 });
