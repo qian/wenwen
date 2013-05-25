@@ -1,67 +1,120 @@
-﻿for(var i = 0; i < 75; i++) { var scriptId = 'u' + i; window[scriptId] = document.getElementById(scriptId); }
+﻿for(var i = 0; i < 74; i++) { var scriptId = 'u' + i; window[scriptId] = document.getElementById(scriptId); }
 
 $axure.eventManager.pageLoad(
 function (e) {
 
 });
-gv_vAlignTable['u21'] = 'top';gv_vAlignTable['u51'] = 'top';gv_vAlignTable['u25'] = 'top';gv_vAlignTable['u55'] = 'top';gv_vAlignTable['u31'] = 'top';gv_vAlignTable['u38'] = 'center';gv_vAlignTable['u32'] = 'top';gv_vAlignTable['u23'] = 'top';gv_vAlignTable['u62'] = 'top';gv_vAlignTable['u53'] = 'top';gv_vAlignTable['u1'] = 'center';HookHover('u7', false);
+gv_vAlignTable['u21'] = 'top';gv_vAlignTable['u51'] = 'top';gv_vAlignTable['u31'] = 'top';gv_vAlignTable['u32'] = 'top';
+$axure.eventManager.keyup('u23', function(e) {
+
+if ((GetWidgetValueLength('u23')) <= Number('4')) {
+
+	SetPanelState('u25', 'pd0u25','none','',500,'none','',500);
+
+}
+});
+
+$axure.eventManager.focus('u23', function(e) {
+
+if (true) {
+
+	SetPanelState('u28', 'pd1u28','none','',500,'none','',500);
+
+}
+});
+
+$axure.eventManager.blur('u23', function(e) {
+
+if (true) {
+
+	SetPanelState('u28', 'pd0u28','none','',500,'none','',500);
+
+}
+
+if ((GetWidgetValueLength('u23')) >= Number('4')) {
+
+	SetPanelState('u25', 'pd1u25','none','',500,'none','',500);
+
+}
+
+if (((GetWidgetText('u23')) == ('admin')) && ((GetWidgetValueLength('u23')) == ('5'))) {
+
+	SetPanelState('u25', 'pd0u25','none','',500,'none','',500);
+
+	SetPanelState('u28', 'pd2u28','none','',500,'none','',500);
+
+}
+
+if ((GetWidgetValueLength('u23')) < Number('4')) {
+
+	SetPanelState('u28', 'pd3u28','none','',500,'none','',500);
+
+}
+
+if ((GetWidgetValueLength('u23')) == ('0')) {
+
+	SetPanelState('u28', 'pd1u28','none','',500,'none','',500);
+
+}
+});
+gv_vAlignTable['u62'] = 'top';
+$axure.eventManager.keyup('u53', function(e) {
+
+if ((GetWidgetValueLength('u53')) <= Number('4')) {
+
+	SetPanelState('u55', 'pd0u55','none','',500,'none','',500);
+
+}
+});
+
+$axure.eventManager.focus('u53', function(e) {
+
+if (true) {
+
+	SetPanelState('u58', 'pd1u58','none','',500,'none','',500);
+
+}
+});
+
+$axure.eventManager.blur('u53', function(e) {
+
+if (true) {
+
+	SetPanelState('u58', 'pd0u58','none','',500,'none','',500);
+
+}
+
+if ((GetWidgetValueLength('u53')) >= Number('4')) {
+
+	SetPanelState('u55', 'pd1u55','none','',500,'none','',500);
+
+}
+
+if (((GetWidgetText('u53')) == ('admin')) && ((GetWidgetValueLength('u53')) == ('5'))) {
+
+	SetPanelState('u55', 'pd0u55','none','',500,'none','',500);
+
+	SetPanelState('u58', 'pd2u58','none','',500,'none','',500);
+
+}
+
+if ((GetWidgetValueLength('u53')) < Number('4')) {
+
+	SetPanelState('u58', 'pd3u58','none','',500,'none','',500);
+
+}
+
+if ((GetWidgetValueLength('u53')) == ('0')) {
+
+	SetPanelState('u58', 'pd1u58','none','',500,'none','',500);
+
+}
+});
+gv_vAlignTable['u1'] = 'center';gv_vAlignTable['u27'] = 'center';HookHover('u7', false);
 HookClick('u7', false);
-gv_vAlignTable['u30'] = 'top';gv_vAlignTable['u8'] = 'center';gv_vAlignTable['u60'] = 'top';
-$axure.eventManager.keyup('u34', function(e) {
-
-if ((GetWidgetValueLength('u34')) <= Number('4')) {
-
-	SetPanelState('u36', 'pd0u36','none','',500,'none','',500);
-
-}
-});
-
-$axure.eventManager.focus('u34', function(e) {
-
-if (true) {
-
-	SetPanelState('u39', 'pd1u39','none','',500,'none','',500);
-
-}
-});
-
-$axure.eventManager.blur('u34', function(e) {
-
-if (true) {
-
-	SetPanelState('u39', 'pd0u39','none','',500,'none','',500);
-
-}
-
-if ((GetWidgetValueLength('u34')) >= Number('4')) {
-
-	SetPanelState('u36', 'pd1u36','none','',500,'none','',500);
-
-}
-
-if (((GetWidgetText('u34')) == ('admin')) && ((GetWidgetValueLength('u34')) == ('5'))) {
-
-	SetPanelState('u36', 'pd0u36','none','',500,'none','',500);
-
-	SetPanelState('u39', 'pd2u39','none','',500,'none','',500);
-
-}
-
-if ((GetWidgetValueLength('u34')) < Number('4')) {
-
-	SetPanelState('u39', 'pd3u39','none','',500,'none','',500);
-
-}
-
-if ((GetWidgetValueLength('u34')) == ('0')) {
-
-	SetPanelState('u39', 'pd1u39','none','',500,'none','',500);
-
-}
-});
-HookHover('u64', false);
-HookClick('u64', false);
-gv_vAlignTable['u19'] = 'center';HookHover('u11', false);
+HookHover('u66', false);
+HookClick('u66', false);
+gv_vAlignTable['u30'] = 'top';gv_vAlignTable['u8'] = 'center';gv_vAlignTable['u60'] = 'top';gv_vAlignTable['u34'] = 'top';gv_vAlignTable['u64'] = 'center';gv_vAlignTable['u19'] = 'center';gv_vAlignTable['u49'] = 'top';HookHover('u11', false);
 HookClick('u11', false);
 
 u11.style.cursor = 'pointer';
@@ -73,129 +126,11 @@ if (true) {
 
 }
 });
-gv_vAlignTable['u41'] = 'top';gv_vAlignTable['u71'] = 'center';gv_vAlignTable['u15'] = 'center';gv_vAlignTable['u45'] = 'top';gv_vAlignTable['u58'] = 'center';gv_vAlignTable['u2'] = 'top';
-u22.style.cursor = 'pointer';
-$axure.eventManager.click('u22', function(e) {
+gv_vAlignTable['u41'] = 'top';HookHover('u71', false);
+HookClick('u71', false);
 
-if (true) {
-
-	self.location.href='http://qian.github.io/wenwen/51daifan/51daifan_prd_v1.0.xlsx';
-
-}
-});
-gv_vAlignTable['u13'] = 'center';gv_vAlignTable['u52'] = 'top';gv_vAlignTable['u43'] = 'top';gv_vAlignTable['u3'] = 'top';gv_vAlignTable['u68'] = 'center';gv_vAlignTable['u50'] = 'top';gv_vAlignTable['u28'] = 'center';
-$axure.eventManager.keyup('u24', function(e) {
-
-if ((GetWidgetValueLength('u24')) <= Number('4')) {
-
-	SetPanelState('u26', 'pd0u26','none','',500,'none','',500);
-
-}
-});
-
-$axure.eventManager.focus('u24', function(e) {
-
-if (true) {
-
-	SetPanelState('u29', 'pd1u29','none','',500,'none','',500);
-
-}
-});
-
-$axure.eventManager.blur('u24', function(e) {
-
-if (true) {
-
-	SetPanelState('u29', 'pd0u29','none','',500,'none','',500);
-
-}
-
-if ((GetWidgetValueLength('u24')) >= Number('4')) {
-
-	SetPanelState('u26', 'pd1u26','none','',500,'none','',500);
-
-}
-
-if (((GetWidgetText('u24')) == ('admin')) && ((GetWidgetValueLength('u24')) == ('5'))) {
-
-	SetPanelState('u26', 'pd0u26','none','',500,'none','',500);
-
-	SetPanelState('u29', 'pd2u29','none','',500,'none','',500);
-
-}
-
-if ((GetWidgetValueLength('u24')) < Number('4')) {
-
-	SetPanelState('u29', 'pd3u29','none','',500,'none','',500);
-
-}
-
-if ((GetWidgetValueLength('u24')) == ('0')) {
-
-	SetPanelState('u29', 'pd1u29','none','',500,'none','',500);
-
-}
-});
-
-$axure.eventManager.keyup('u54', function(e) {
-
-if ((GetWidgetValueLength('u54')) <= Number('4')) {
-
-	SetPanelState('u56', 'pd0u56','none','',500,'none','',500);
-
-}
-});
-
-$axure.eventManager.focus('u54', function(e) {
-
-if (true) {
-
-	SetPanelState('u59', 'pd1u59','none','',500,'none','',500);
-
-}
-});
-
-$axure.eventManager.blur('u54', function(e) {
-
-if (true) {
-
-	SetPanelState('u59', 'pd0u59','none','',500,'none','',500);
-
-}
-
-if ((GetWidgetValueLength('u54')) >= Number('4')) {
-
-	SetPanelState('u56', 'pd1u56','none','',500,'none','',500);
-
-}
-
-if (((GetWidgetText('u54')) == ('admin')) && ((GetWidgetValueLength('u54')) == ('5'))) {
-
-	SetPanelState('u56', 'pd0u56','none','',500,'none','',500);
-
-	SetPanelState('u59', 'pd2u59','none','',500,'none','',500);
-
-}
-
-if ((GetWidgetValueLength('u54')) < Number('4')) {
-
-	SetPanelState('u59', 'pd3u59','none','',500,'none','',500);
-
-}
-
-if ((GetWidgetValueLength('u54')) == ('0')) {
-
-	SetPanelState('u59', 'pd1u59','none','',500,'none','',500);
-
-}
-});
-gv_vAlignTable['u6'] = 'top';gv_vAlignTable['u61'] = 'top';gv_vAlignTable['u35'] = 'top';gv_vAlignTable['u65'] = 'center';gv_vAlignTable['u5'] = 'center';HookHover('u9', false);
-HookClick('u9', false);
-gv_vAlignTable['u42'] = 'top';gv_vAlignTable['u33'] = 'top';HookHover('u72', false);
-HookClick('u72', false);
-
-u72.style.cursor = 'pointer';
-$axure.eventManager.click('u72', function(e) {
+u71.style.cursor = 'pointer';
+$axure.eventManager.click('u71', function(e) {
 
 if (true) {
 
@@ -203,61 +138,116 @@ if (true) {
 
 }
 });
-gv_vAlignTable['u63'] = 'top';gv_vAlignTable['u48'] = 'center';HookHover('u67', false);
-HookClick('u67', false);
-gv_vAlignTable['u10'] = 'center';gv_vAlignTable['u40'] = 'top';HookHover('u70', false);
-HookClick('u70', false);
+gv_vAlignTable['u15'] = 'center';gv_vAlignTable['u37'] = 'center';gv_vAlignTable['u2'] = 'top';gv_vAlignTable['u22'] = 'top';gv_vAlignTable['u13'] = 'center';gv_vAlignTable['u52'] = 'top';
+$axure.eventManager.keyup('u43', function(e) {
 
-$axure.eventManager.keyup('u44', function(e) {
+if ((GetWidgetValueLength('u43')) <= Number('4')) {
 
-if ((GetWidgetValueLength('u44')) <= Number('4')) {
-
-	SetPanelState('u46', 'pd0u46','none','',500,'none','',500);
+	SetPanelState('u45', 'pd0u45','none','',500,'none','',500);
 
 }
 });
 
-$axure.eventManager.focus('u44', function(e) {
+$axure.eventManager.focus('u43', function(e) {
 
 if (true) {
 
-	SetPanelState('u49', 'pd1u49','none','',500,'none','',500);
+	SetPanelState('u48', 'pd1u48','none','',500,'none','',500);
 
 }
 });
 
-$axure.eventManager.blur('u44', function(e) {
+$axure.eventManager.blur('u43', function(e) {
 
 if (true) {
 
-	SetPanelState('u49', 'pd0u49','none','',500,'none','',500);
+	SetPanelState('u48', 'pd0u48','none','',500,'none','',500);
 
 }
 
-if ((GetWidgetValueLength('u44')) >= Number('4')) {
+if ((GetWidgetValueLength('u43')) >= Number('4')) {
 
-	SetPanelState('u46', 'pd1u46','none','',500,'none','',500);
-
-}
-
-if (((GetWidgetText('u44')) == ('admin')) && ((GetWidgetValueLength('u44')) == ('5'))) {
-
-	SetPanelState('u46', 'pd0u46','none','',500,'none','',500);
-
-	SetPanelState('u49', 'pd2u49','none','',500,'none','',500);
+	SetPanelState('u45', 'pd1u45','none','',500,'none','',500);
 
 }
 
-if ((GetWidgetValueLength('u44')) < Number('4')) {
+if (((GetWidgetText('u43')) == ('admin')) && ((GetWidgetValueLength('u43')) == ('5'))) {
 
-	SetPanelState('u49', 'pd3u49','none','',500,'none','',500);
+	SetPanelState('u45', 'pd0u45','none','',500,'none','',500);
+
+	SetPanelState('u48', 'pd2u48','none','',500,'none','',500);
 
 }
 
-if ((GetWidgetValueLength('u44')) == ('0')) {
+if ((GetWidgetValueLength('u43')) < Number('4')) {
 
-	SetPanelState('u49', 'pd1u49','none','',500,'none','',500);
+	SetPanelState('u48', 'pd3u48','none','',500,'none','',500);
+
+}
+
+if ((GetWidgetValueLength('u43')) == ('0')) {
+
+	SetPanelState('u48', 'pd1u48','none','',500,'none','',500);
 
 }
 });
-gv_vAlignTable['u74'] = 'center';
+gv_vAlignTable['u3'] = 'top';gv_vAlignTable['u47'] = 'center';gv_vAlignTable['u73'] = 'center';gv_vAlignTable['u50'] = 'top';gv_vAlignTable['u24'] = 'top';gv_vAlignTable['u54'] = 'top';gv_vAlignTable['u39'] = 'top';HookHover('u69', false);
+HookClick('u69', false);
+gv_vAlignTable['u6'] = 'top';gv_vAlignTable['u61'] = 'top';gv_vAlignTable['u5'] = 'center';HookHover('u9', false);
+HookClick('u9', false);
+gv_vAlignTable['u42'] = 'top';
+$axure.eventManager.keyup('u33', function(e) {
+
+if ((GetWidgetValueLength('u33')) <= Number('4')) {
+
+	SetPanelState('u35', 'pd0u35','none','',500,'none','',500);
+
+}
+});
+
+$axure.eventManager.focus('u33', function(e) {
+
+if (true) {
+
+	SetPanelState('u38', 'pd1u38','none','',500,'none','',500);
+
+}
+});
+
+$axure.eventManager.blur('u33', function(e) {
+
+if (true) {
+
+	SetPanelState('u38', 'pd0u38','none','',500,'none','',500);
+
+}
+
+if ((GetWidgetValueLength('u33')) >= Number('4')) {
+
+	SetPanelState('u35', 'pd1u35','none','',500,'none','',500);
+
+}
+
+if (((GetWidgetText('u33')) == ('admin')) && ((GetWidgetValueLength('u33')) == ('5'))) {
+
+	SetPanelState('u35', 'pd0u35','none','',500,'none','',500);
+
+	SetPanelState('u38', 'pd2u38','none','',500,'none','',500);
+
+}
+
+if ((GetWidgetValueLength('u33')) < Number('4')) {
+
+	SetPanelState('u38', 'pd3u38','none','',500,'none','',500);
+
+}
+
+if ((GetWidgetValueLength('u33')) == ('0')) {
+
+	SetPanelState('u38', 'pd1u38','none','',500,'none','',500);
+
+}
+});
+HookHover('u63', false);
+HookClick('u63', false);
+gv_vAlignTable['u67'] = 'center';gv_vAlignTable['u57'] = 'center';gv_vAlignTable['u10'] = 'center';gv_vAlignTable['u40'] = 'top';gv_vAlignTable['u70'] = 'center';gv_vAlignTable['u44'] = 'top';gv_vAlignTable['u29'] = 'top';gv_vAlignTable['u59'] = 'top';
