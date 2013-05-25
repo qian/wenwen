@@ -56,85 +56,23 @@ div {
     word-wrap:break-word;
 }
 
-.u2 {
-    position:absolute;
-    left:167px;
-    top:7px;
-    width:122px;
-    height:36px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
+.u2_mouseOver {
+    background-image: url('../我的厨房_files/tab_u2_mouseOver.png');
 }
 
-.u3 {
-    position:absolute;
-    left:169px;
-    top:39px;
-    width:95px;
-    height:19px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
+.u2_mouseDown {
+    background-image: url('../我的厨房_files/tab_u2_mouseDown.png');
 }
 
-.u4_normal {
-    background-image: url('../我的厨房_files/u4_normal.png');
+.u2_disabled {
+    background-image: url('../我的厨房_files/tab_u2_disabled.png');
 }
 
-.u4_container {
-    position:absolute;
-    left:116px;
-    top:7px;
-    width:48px;
-    height:50px;
+.u2_normal {
+    background-image: url('../我的厨房_files/tab_u2_disabled.png');
 }
 
-#u4_img {
-    position:absolute;
-    left:0px;
-    top:0px;
-    width:48px;
-    height:50px;
-}
-
-.u5 {
-    position:absolute;
-    left:2px;
-    top:17px;
-    width:44px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u6_mouseOver {
-    background-image: url('../我的厨房_files/tab_u6_mouseOver.png');
-}
-
-.u6_mouseDown {
-    background-image: url('../我的厨房_files/tab_u6_mouseDown.png');
-}
-
-.u6_disabled {
-    background-image: url('../我的厨房_files/tab_u6_disabled.png');
-}
-
-.u6_normal {
-    background-image: url('../我的厨房_files/tab_u6_disabled.png');
-}
-
-.u6_container {
+.u2_container {
     position:absolute;
     left:459px;
     top:18px;
@@ -142,7 +80,7 @@ div {
     height:42px;
 }
 
-#u6_img {
+#u2_img {
     position:absolute;
     left:-3px;
     top:-3px;
@@ -150,7 +88,7 @@ div {
     height:48px;
 }
 
-.u7 {
+.u3 {
     position:absolute;
     left:2px;
     top:9px;
@@ -164,11 +102,11 @@ div {
     word-wrap:break-word;
 }
 
-.u9_normal {
-    background-image: url('../我的厨房_files/u9_normal.png');
+.u5_normal {
+    background-image: url('../我的厨房_files/u5_normal.png');
 }
 
-.u9_container {
+.u5_container {
     position:absolute;
     left:466px;
     top:28px;
@@ -176,7 +114,7 @@ div {
     height:26px;
 }
 
-#u9_img {
+#u5_img {
     position:absolute;
     left:0px;
     top:0px;
@@ -184,11 +122,87 @@ div {
     height:26px;
 }
 
-.u10 {
+.u6 {
     position:absolute;
     left:2px;
     top:5px;
     width:21px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u7_line {
+    background-image: url('../我的厨房_files/u7_line.png');
+}
+
+.u7_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:444px;
+    height:3px;
+}
+
+.u7 {
+    position:absolute;
+    left:0px;
+    top:56px;
+    width:444px;
+    height:10px;
+    
+}
+
+.u8_line {
+    background-image: url('../我的厨房_files/u8_line.png');
+}
+
+.u8_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:756px;
+    height:3px;
+}
+
+.u8 {
+    position:absolute;
+    left:444px;
+    top:56px;
+    width:756px;
+    height:10px;
+    
+}
+
+.u9_normal {
+    background-image: url('../我的厨房_files/u9_normal.png');
+}
+
+.u9_container {
+    position:absolute;
+    left:566px;
+    top:11px;
+    width:21px;
+    height:19px;
+}
+
+#u9_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:27px;
+    height:25px;
+}
+
+.u10 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:17px;
     height:16px;
     ;
     ;
@@ -206,87 +220,11 @@ div {
     position:absolute;
     left:0px;
     top:4px;
-    width:444px;
-    height:3px;
-}
-
-.u11 {
-    position:absolute;
-    left:0px;
-    top:56px;
-    width:444px;
-    height:10px;
-    
-}
-
-.u12_line {
-    background-image: url('../我的厨房_files/u12_line.png');
-}
-
-.u12_line {
-    position:absolute;
-    left:0px;
-    top:4px;
-    width:756px;
-    height:3px;
-}
-
-.u12 {
-    position:absolute;
-    left:444px;
-    top:56px;
-    width:756px;
-    height:10px;
-    
-}
-
-.u13_normal {
-    background-image: url('../我的厨房_files/u13_normal.png');
-}
-
-.u13_container {
-    position:absolute;
-    left:566px;
-    top:11px;
-    width:21px;
-    height:19px;
-}
-
-#u13_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:27px;
-    height:25px;
-}
-
-.u14 {
-    position:absolute;
-    left:2px;
-    top:2px;
-    width:17px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u15_line {
-    background-image: url('../我的厨房_files/u15_line.png');
-}
-
-.u15_line {
-    position:absolute;
-    left:0px;
-    top:4px;
     width:988px;
     height:3px;
 }
 
-.u15 {
+.u11 {
     position:absolute;
     left:105px;
     top:691px;
@@ -295,7 +233,7 @@ div {
     
 }
 
-.u16 {
+.u12 {
     position:absolute;
     left:171px;
     top:706px;
@@ -309,23 +247,23 @@ div {
     word-wrap:break-word;
 }
 
-.u17_mouseOver {
-    background-image: url('../我的厨房_files/tab_u17_mouseOver.png');
+.u13_mouseOver {
+    background-image: url('../我的厨房_files/tab_u13_mouseOver.png');
 }
 
-.u17_mouseDown {
-    background-image: url('../我的厨房_files/tab_u17_mouseDown.png');
+.u13_mouseDown {
+    background-image: url('../我的厨房_files/tab_u13_mouseDown.png');
 }
 
-.u17_disabled {
-    background-image: url('../我的厨房_files/tab_u17_disabled.png');
+.u13_disabled {
+    background-image: url('../我的厨房_files/tab_u13_disabled.png');
 }
 
-.u17_normal {
-    background-image: url('../我的厨房_files/tab_u17_disabled.png');
+.u13_normal {
+    background-image: url('../我的厨房_files/tab_u13_disabled.png');
 }
 
-.u17_container {
+.u13_container {
     position:absolute;
     left:303px;
     top:17px;
@@ -333,7 +271,7 @@ div {
     height:42px;
 }
 
-#u17_img {
+#u13_img {
     position:absolute;
     left:-3px;
     top:-3px;
@@ -341,11 +279,91 @@ div {
     height:48px;
 }
 
-.u18 {
+.u14 {
     position:absolute;
     left:2px;
     top:9px;
     width:144px;
+    height:24px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16_normal {
+    background-image: url('../我的厨房_files/u16_normal.png');
+}
+
+.u16_container {
+    position:absolute;
+    left:310px;
+    top:24px;
+    width:30px;
+    height:30px;
+}
+
+#u16_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:30px;
+    height:30px;
+}
+
+.u17 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:26px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18_mouseOver {
+    background-image: url('../我的厨房_files/tab_u18_mouseOver.png');
+}
+
+.u18_mouseDown {
+    background-image: url('../我的厨房_files/tab_u18_mouseDown.png');
+}
+
+.u18_disabled {
+    background-image: url('../我的厨房_files/tab_u18_disabled.png');
+}
+
+.u18_normal {
+    background-image: url('../我的厨房_files/tab_u18_disabled.png');
+}
+
+.u18_container {
+    position:absolute;
+    left:603px;
+    top:15px;
+    width:128px;
+    height:45px;
+}
+
+#u18_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:134px;
+    height:51px;
+}
+
+.u19 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:124px;
     height:24px;
     ;
     ;
@@ -361,7 +379,7 @@ div {
 
 .u20_container {
     position:absolute;
-    left:310px;
+    left:613px;
     top:24px;
     width:30px;
     height:30px;
@@ -389,87 +407,7 @@ div {
     word-wrap:break-word;
 }
 
-.u22_mouseOver {
-    background-image: url('../我的厨房_files/tab_u22_mouseOver.png');
-}
-
-.u22_mouseDown {
-    background-image: url('../我的厨房_files/tab_u22_mouseDown.png');
-}
-
-.u22_disabled {
-    background-image: url('../我的厨房_files/tab_u22_disabled.png');
-}
-
-.u22_normal {
-    background-image: url('../我的厨房_files/tab_u22_disabled.png');
-}
-
-.u22_container {
-    position:absolute;
-    left:603px;
-    top:15px;
-    width:128px;
-    height:45px;
-}
-
-#u22_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:134px;
-    height:51px;
-}
-
-.u23 {
-    position:absolute;
-    left:2px;
-    top:10px;
-    width:124px;
-    height:24px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u24_normal {
-    background-image: url('../我的厨房_files/u24_normal.png');
-}
-
-.u24_container {
-    position:absolute;
-    left:613px;
-    top:24px;
-    width:30px;
-    height:30px;
-}
-
-#u24_img {
-    position:absolute;
-    left:0px;
-    top:0px;
-    width:30px;
-    height:30px;
-}
-
-.u25 {
-    position:absolute;
-    left:2px;
-    top:7px;
-    width:26px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u26 {
+.u22 {
     position:absolute;
     left:864px;
     top:40px;
@@ -483,7 +421,7 @@ div {
     word-wrap:break-word;
 }
 
-#u27 {
+#u23 {
     position:absolute;
     left:197px;
     top:92px;
@@ -492,7 +430,7 @@ div {
     overflow:hidden;
 }
 
-#pd1u27 {
+#pd1u23 {
     position:absolute;
     left:0px;
     top:0px;
@@ -501,11 +439,11 @@ div {
     
 }
 
-.u28_line {
-    background-image: url('../我的厨房_files/u28_line.png');
+.u24_line {
+    background-image: url('../我的厨房_files/u24_line.png');
 }
 
-.u28_line {
+.u24_line {
     position:absolute;
     left:0px;
     top:4px;
@@ -513,7 +451,7 @@ div {
     height:3px;
 }
 
-.u28 {
+.u24 {
     position:absolute;
     left:0px;
     top:36px;
@@ -522,11 +460,11 @@ div {
     
 }
 
-.u29_normal {
-    background-image: url('../我的厨房_files/u29_normal.png');
+.u25_normal {
+    background-image: url('../我的厨房_files/u25_normal.png');
 }
 
-.u29_container {
+.u25_container {
     position:absolute;
     left:0px;
     top:38px;
@@ -534,7 +472,7 @@ div {
     height:2px;
 }
 
-#u29_img {
+#u25_img {
     position:absolute;
     left:-3px;
     top:-3px;
@@ -542,7 +480,7 @@ div {
     height:8px;
 }
 
-.u30 {
+.u26 {
     position:absolute;
     left:2px;
     top:-7px;
@@ -556,11 +494,11 @@ div {
     word-wrap:break-word;
 }
 
-.u31_normal {
-    background-image: url('../我的厨房_files/tab_u31_normal.png');
+.u27_normal {
+    background-image: url('../我的厨房_files/tab_u27_normal.png');
 }
 
-.u31_container {
+.u27_container {
     position:absolute;
     left:140px;
     top:6px;
@@ -568,7 +506,7 @@ div {
     height:35px;
 }
 
-#u31_img {
+#u27_img {
     position:absolute;
     left:-3px;
     top:-3px;
@@ -576,7 +514,7 @@ div {
     height:41px;
 }
 
-.u32 {
+.u28 {
     position:absolute;
     left:2px;
     top:7px;
@@ -590,23 +528,23 @@ div {
     word-wrap:break-word;
 }
 
-.u33_mouseOver {
-    background-image: url('../我的厨房_files/tab_u33_mouseOver.png');
+.u29_mouseOver {
+    background-image: url('../我的厨房_files/tab_u29_mouseOver.png');
 }
 
-.u33_mouseDown {
-    background-image: url('../我的厨房_files/tab_u33_mouseDown.png');
+.u29_mouseDown {
+    background-image: url('../我的厨房_files/tab_u29_mouseDown.png');
 }
 
-.u33_disabled {
-    background-image: url('../我的厨房_files/tab_u33_disabled.png');
+.u29_disabled {
+    background-image: url('../我的厨房_files/tab_u29_disabled.png');
 }
 
-.u33_normal {
-    background-image: url('../我的厨房_files/tab_u33_disabled.png');
+.u29_normal {
+    background-image: url('../我的厨房_files/tab_u29_disabled.png');
 }
 
-.u33_container {
+.u29_container {
     position:absolute;
     left:20px;
     top:6px;
@@ -614,7 +552,7 @@ div {
     height:35px;
 }
 
-#u33_img {
+#u29_img {
     position:absolute;
     left:-3px;
     top:-3px;
@@ -622,7 +560,7 @@ div {
     height:41px;
 }
 
-.u34 {
+.u30 {
     position:absolute;
     left:2px;
     top:7px;
@@ -636,11 +574,11 @@ div {
     word-wrap:break-word;
 }
 
-.u35_normal {
-    background-image: url('../我的厨房_files/u35_normal.png');
+.u31_normal {
+    background-image: url('../我的厨房_files/u31_normal.png');
 }
 
-.u35_container {
+.u31_container {
     position:absolute;
     left:36px;
     top:76px;
@@ -648,7 +586,7 @@ div {
     height:219px;
 }
 
-#u35_img {
+#u31_img {
     position:absolute;
     left:-3px;
     top:-3px;
@@ -656,7 +594,7 @@ div {
     height:225px;
 }
 
-.u36 {
+.u32 {
     position:absolute;
     left:2px;
     top:102px;
@@ -670,7 +608,7 @@ div {
     word-wrap:break-word;
 }
 
-.u37 {
+.u33 {
     position:absolute;
     left:105px;
     top:79px;
@@ -688,7 +626,7 @@ div {
     
 }
 
-.u38 {
+.u34 {
     position:absolute;
     left:43px;
     top:85px;
@@ -702,7 +640,7 @@ div {
     word-wrap:break-word;
 }
 
-#u39 {
+#u35 {
     position:absolute;
     left:261px;
     top:79px;
@@ -711,7 +649,7 @@ div {
     overflow:hidden;
 }
 
-#pd1u39 {
+#pd1u35 {
     position:absolute;
     left:0px;
     top:0px;
@@ -720,11 +658,11 @@ div {
     
 }
 
-.u40_normal {
-    background-image: url('../我的厨房_files/u40_normal.png');
+.u36_normal {
+    background-image: url('../我的厨房_files/u36_normal.png');
 }
 
-.u40_container {
+.u36_container {
     position:absolute;
     left:10px;
     top:7px;
@@ -732,7 +670,7 @@ div {
     height:14px;
 }
 
-#u40_img {
+#u36_img {
     position:absolute;
     left:0px;
     top:0px;
@@ -740,7 +678,7 @@ div {
     height:14px;
 }
 
-.u41 {
+.u37 {
     position:absolute;
     left:2px;
     top:-1px;
@@ -754,7 +692,7 @@ div {
     word-wrap:break-word;
 }
 
-#pd0u39 {
+#pd0u35 {
     position:absolute;
     left:0px;
     top:0px;
@@ -763,7 +701,7 @@ div {
     
 }
 
-#u42 {
+#u38 {
     position:absolute;
     left:105px;
     top:105px;
@@ -772,7 +710,7 @@ div {
     overflow:hidden;
 }
 
-#pd3u42 {
+#pd3u38 {
     position:absolute;
     left:0px;
     top:0px;
@@ -781,7 +719,7 @@ div {
     
 }
 
-.u43 {
+.u39 {
     position:absolute;
     left:283px;
     top:347px;
@@ -795,7 +733,7 @@ div {
     word-wrap:break-word;
 }
 
-.u44 {
+.u40 {
     position:absolute;
     left:0px;
     top:4px;
@@ -809,7 +747,7 @@ div {
     word-wrap:break-word;
 }
 
-#pd2u42 {
+#pd2u38 {
     position:absolute;
     left:0px;
     top:0px;
@@ -818,7 +756,7 @@ div {
     
 }
 
-.u45 {
+.u41 {
     position:absolute;
     left:0px;
     top:4px;
@@ -832,7 +770,7 @@ div {
     word-wrap:break-word;
 }
 
-#pd1u42 {
+#pd1u38 {
     position:absolute;
     left:0px;
     top:0px;
@@ -841,7 +779,7 @@ div {
     
 }
 
-.u46 {
+.u42 {
     position:absolute;
     left:0px;
     top:4px;
@@ -855,7 +793,7 @@ div {
     word-wrap:break-word;
 }
 
-#pd0u42 {
+#pd0u38 {
     position:absolute;
     left:0px;
     top:0px;
@@ -864,7 +802,7 @@ div {
     
 }
 
-.u47 {
+.u43 {
     position:absolute;
     left:105px;
     top:120px;
@@ -882,7 +820,7 @@ div {
     
 }
 
-.u48 {
+.u44 {
     position:absolute;
     left:74px;
     top:129px;
@@ -896,7 +834,7 @@ div {
     word-wrap:break-word;
 }
 
-.u49 {
+.u45 {
     position:absolute;
     left:105px;
     top:164px;
@@ -914,7 +852,7 @@ div {
     
 }
 
-.u50 {
+.u46 {
     position:absolute;
     left:43px;
     top:170px;
@@ -928,7 +866,7 @@ div {
     word-wrap:break-word;
 }
 
-#u51 {
+#u47 {
     position:absolute;
     left:261px;
     top:164px;
@@ -937,7 +875,7 @@ div {
     overflow:hidden;
 }
 
-#pd1u51 {
+#pd1u47 {
     position:absolute;
     left:0px;
     top:0px;
@@ -946,11 +884,11 @@ div {
     
 }
 
-.u52_normal {
-    background-image: url('../我的厨房_files/u40_normal.png');
+.u48_normal {
+    background-image: url('../我的厨房_files/u36_normal.png');
 }
 
-.u52_container {
+.u48_container {
     position:absolute;
     left:10px;
     top:7px;
@@ -958,7 +896,7 @@ div {
     height:14px;
 }
 
-#u52_img {
+#u48_img {
     position:absolute;
     left:0px;
     top:0px;
@@ -966,7 +904,7 @@ div {
     height:14px;
 }
 
-.u53 {
+.u49 {
     position:absolute;
     left:2px;
     top:-1px;
@@ -980,7 +918,7 @@ div {
     word-wrap:break-word;
 }
 
-#pd0u51 {
+#pd0u47 {
     position:absolute;
     left:0px;
     top:0px;
@@ -989,7 +927,7 @@ div {
     
 }
 
-#u54 {
+#u50 {
     position:absolute;
     left:105px;
     top:190px;
@@ -998,7 +936,7 @@ div {
     overflow:hidden;
 }
 
-#pd3u54 {
+#pd3u50 {
     position:absolute;
     left:0px;
     top:0px;
@@ -1007,7 +945,7 @@ div {
     
 }
 
-.u55 {
+.u51 {
     position:absolute;
     left:283px;
     top:347px;
@@ -1021,7 +959,7 @@ div {
     word-wrap:break-word;
 }
 
-.u56 {
+.u52 {
     position:absolute;
     left:0px;
     top:4px;
@@ -1035,7 +973,7 @@ div {
     word-wrap:break-word;
 }
 
-#pd2u54 {
+#pd2u50 {
     position:absolute;
     left:0px;
     top:0px;
@@ -1044,7 +982,7 @@ div {
     
 }
 
-.u57 {
+.u53 {
     position:absolute;
     left:0px;
     top:4px;
@@ -1058,7 +996,7 @@ div {
     word-wrap:break-word;
 }
 
-#pd1u54 {
+#pd1u50 {
     position:absolute;
     left:0px;
     top:0px;
@@ -1067,7 +1005,7 @@ div {
     
 }
 
-.u58 {
+.u54 {
     position:absolute;
     left:0px;
     top:4px;
@@ -1081,7 +1019,7 @@ div {
     word-wrap:break-word;
 }
 
-#pd0u54 {
+#pd0u50 {
     position:absolute;
     left:0px;
     top:0px;
@@ -1090,7 +1028,7 @@ div {
     
 }
 
-.u59 {
+.u55 {
     position:absolute;
     left:106px;
     top:204px;
@@ -1108,7 +1046,7 @@ div {
     
 }
 
-.u60 {
+.u56 {
     position:absolute;
     left:77px;
     top:210px;
@@ -1122,7 +1060,7 @@ div {
     word-wrap:break-word;
 }
 
-#u61 {
+#u57 {
     position:absolute;
     left:180px;
     top:204px;
@@ -1131,7 +1069,7 @@ div {
     overflow:hidden;
 }
 
-#pd1u61 {
+#pd1u57 {
     position:absolute;
     left:0px;
     top:0px;
@@ -1140,11 +1078,11 @@ div {
     
 }
 
-.u62_normal {
-    background-image: url('../我的厨房_files/u40_normal.png');
+.u58_normal {
+    background-image: url('../我的厨房_files/u36_normal.png');
 }
 
-.u62_container {
+.u58_container {
     position:absolute;
     left:10px;
     top:7px;
@@ -1152,7 +1090,7 @@ div {
     height:14px;
 }
 
-#u62_img {
+#u58_img {
     position:absolute;
     left:0px;
     top:0px;
@@ -1160,7 +1098,7 @@ div {
     height:14px;
 }
 
-.u63 {
+.u59 {
     position:absolute;
     left:2px;
     top:-1px;
@@ -1174,7 +1112,7 @@ div {
     word-wrap:break-word;
 }
 
-#pd0u61 {
+#pd0u57 {
     position:absolute;
     left:0px;
     top:0px;
@@ -1183,7 +1121,7 @@ div {
     
 }
 
-#u64 {
+#u60 {
     position:absolute;
     left:106px;
     top:230px;
@@ -1192,7 +1130,7 @@ div {
     overflow:hidden;
 }
 
-#pd3u64 {
+#pd3u60 {
     position:absolute;
     left:0px;
     top:0px;
@@ -1201,7 +1139,7 @@ div {
     
 }
 
-.u65 {
+.u61 {
     position:absolute;
     left:283px;
     top:347px;
@@ -1215,7 +1153,7 @@ div {
     word-wrap:break-word;
 }
 
-.u66 {
+.u62 {
     position:absolute;
     left:0px;
     top:4px;
@@ -1229,7 +1167,7 @@ div {
     word-wrap:break-word;
 }
 
-#pd2u64 {
+#pd2u60 {
     position:absolute;
     left:0px;
     top:0px;
@@ -1238,7 +1176,7 @@ div {
     
 }
 
-.u67 {
+.u63 {
     position:absolute;
     left:0px;
     top:4px;
@@ -1252,7 +1190,7 @@ div {
     word-wrap:break-word;
 }
 
-#pd1u64 {
+#pd1u60 {
     position:absolute;
     left:0px;
     top:0px;
@@ -1261,7 +1199,7 @@ div {
     
 }
 
-.u68 {
+.u64 {
     position:absolute;
     left:0px;
     top:4px;
@@ -1275,7 +1213,7 @@ div {
     word-wrap:break-word;
 }
 
-#pd0u64 {
+#pd0u60 {
     position:absolute;
     left:0px;
     top:0px;
@@ -1284,7 +1222,7 @@ div {
     
 }
 
-.u69 {
+.u65 {
     position:absolute;
     left:253px;
     top:204px;
@@ -1302,7 +1240,7 @@ div {
     
 }
 
-.u70 {
+.u66 {
     position:absolute;
     left:224px;
     top:210px;
@@ -1316,7 +1254,7 @@ div {
     word-wrap:break-word;
 }
 
-#u71 {
+#u67 {
     position:absolute;
     left:327px;
     top:204px;
@@ -1325,7 +1263,7 @@ div {
     overflow:hidden;
 }
 
-#pd1u71 {
+#pd1u67 {
     position:absolute;
     left:0px;
     top:0px;
@@ -1334,11 +1272,11 @@ div {
     
 }
 
-.u72_normal {
-    background-image: url('../我的厨房_files/u40_normal.png');
+.u68_normal {
+    background-image: url('../我的厨房_files/u36_normal.png');
 }
 
-.u72_container {
+.u68_container {
     position:absolute;
     left:10px;
     top:7px;
@@ -1346,7 +1284,7 @@ div {
     height:14px;
 }
 
-#u72_img {
+#u68_img {
     position:absolute;
     left:0px;
     top:0px;
@@ -1354,7 +1292,7 @@ div {
     height:14px;
 }
 
-.u73 {
+.u69 {
     position:absolute;
     left:2px;
     top:-1px;
@@ -1368,7 +1306,7 @@ div {
     word-wrap:break-word;
 }
 
-#pd0u71 {
+#pd0u67 {
     position:absolute;
     left:0px;
     top:0px;
@@ -1377,7 +1315,7 @@ div {
     
 }
 
-#u74 {
+#u70 {
     position:absolute;
     left:253px;
     top:230px;
@@ -1386,7 +1324,7 @@ div {
     overflow:hidden;
 }
 
-#pd3u74 {
+#pd3u70 {
     position:absolute;
     left:0px;
     top:0px;
@@ -1395,7 +1333,7 @@ div {
     
 }
 
-.u75 {
+.u71 {
     position:absolute;
     left:283px;
     top:347px;
@@ -1409,7 +1347,7 @@ div {
     word-wrap:break-word;
 }
 
-.u76 {
+.u72 {
     position:absolute;
     left:0px;
     top:4px;
@@ -1423,7 +1361,7 @@ div {
     word-wrap:break-word;
 }
 
-#pd2u74 {
+#pd2u70 {
     position:absolute;
     left:0px;
     top:0px;
@@ -1432,7 +1370,7 @@ div {
     
 }
 
-.u77 {
+.u73 {
     position:absolute;
     left:0px;
     top:4px;
@@ -1446,7 +1384,7 @@ div {
     word-wrap:break-word;
 }
 
-#pd1u74 {
+#pd1u70 {
     position:absolute;
     left:0px;
     top:0px;
@@ -1455,7 +1393,7 @@ div {
     
 }
 
-.u78 {
+.u74 {
     position:absolute;
     left:0px;
     top:4px;
@@ -1469,7 +1407,7 @@ div {
     word-wrap:break-word;
 }
 
-#pd0u74 {
+#pd0u70 {
     position:absolute;
     left:0px;
     top:0px;
@@ -1478,7 +1416,7 @@ div {
     
 }
 
-.u79 {
+.u75 {
     position:absolute;
     left:402px;
     top:204px;
@@ -1496,7 +1434,7 @@ div {
     
 }
 
-.u80 {
+.u76 {
     position:absolute;
     left:327px;
     top:209px;
@@ -1510,15 +1448,15 @@ div {
     word-wrap:break-word;
 }
 
-.u81_disabled {
-    background-image: url('../我的厨房_files/button___date_picker_u81_disabled.png');
+.u77_disabled {
+    background-image: url('../我的厨房_files/button___date_picker_u77_disabled.png');
 }
 
-.u81_normal {
-    background-image: url('../我的厨房_files/button___date_picker_u81_normal.png');
+.u77_normal {
+    background-image: url('../我的厨房_files/button___date_picker_u77_normal.png');
 }
 
-.u81_container {
+.u77_container {
     position:absolute;
     left:492px;
     top:206px;
@@ -1526,7 +1464,7 @@ div {
     height:18px;
 }
 
-#u81_img {
+#u77_img {
     position:absolute;
     left:0px;
     top:0px;
@@ -1534,7 +1472,7 @@ div {
     height:18px;
 }
 
-.u82 {
+.u78 {
     position:absolute;
     left:2px;
     top:1px;
@@ -1548,7 +1486,7 @@ div {
     word-wrap:break-word;
 }
 
-#u83 {
+#u79 {
     position:absolute;
     left:503px;
     top:213px;
@@ -1557,7 +1495,7 @@ div {
     overflow:hidden;
 }
 
-#pd0u83 {
+#pd0u79 {
     position:absolute;
     left:0px;
     top:0px;
@@ -1566,11 +1504,11 @@ div {
     
 }
 
-.u84_normal {
-    background-image: url('../我的厨房_files/u84_normal.png');
+.u80_normal {
+    background-image: url('../我的厨房_files/u80_normal.png');
 }
 
-.u84_container {
+.u80_container {
     position:absolute;
     left:0px;
     top:0px;
@@ -1578,7 +1516,7 @@ div {
     height:180px;
 }
 
-#u84_img {
+#u80_img {
     position:absolute;
     left:-3px;
     top:-3px;
@@ -1586,7 +1524,7 @@ div {
     height:186px;
 }
 
-.u85 {
+.u81 {
     position:absolute;
     left:2px;
     top:82px;
@@ -1600,11 +1538,11 @@ div {
     word-wrap:break-word;
 }
 
-.u86_normal {
-    background-image: url('../我的厨房_files/u86_normal.png');
+.u82_normal {
+    background-image: url('../我的厨房_files/u82_normal.png');
 }
 
-.u86_container {
+.u82_container {
     position:absolute;
     left:10px;
     top:10px;
@@ -1612,7 +1550,7 @@ div {
     height:18px;
 }
 
-#u86_img {
+#u82_img {
     position:absolute;
     left:-3px;
     top:-3px;
@@ -1620,7 +1558,7 @@ div {
     height:24px;
 }
 
-.u87 {
+.u83 {
     position:absolute;
     left:2px;
     top:2px;
@@ -1634,11 +1572,11 @@ div {
     word-wrap:break-word;
 }
 
-.u88_normal {
-    background-image: url('../我的厨房_files/u86_normal.png');
+.u84_normal {
+    background-image: url('../我的厨房_files/u82_normal.png');
 }
 
-.u88_container {
+.u84_container {
     position:absolute;
     left:128px;
     top:10px;
@@ -1646,7 +1584,7 @@ div {
     height:18px;
 }
 
-#u88_img {
+#u84_img {
     position:absolute;
     left:-3px;
     top:-3px;
@@ -1654,7 +1592,7 @@ div {
     height:24px;
 }
 
-.u89 {
+.u85 {
     position:absolute;
     left:2px;
     top:2px;
@@ -1668,7 +1606,7 @@ div {
     word-wrap:break-word;
 }
 
-.u90 {
+.u86 {
     position:absolute;
     left:30px;
     top:12px;
@@ -1682,7 +1620,7 @@ div {
     word-wrap:break-word;
 }
 
-#u91 {
+#u87 {
     position:absolute;
     left:10px;
     top:50px;
@@ -1690,13 +1628,81 @@ div {
     height:125px
 }
 
+.u88_normal {
+    background-image: url('../我的厨房_files/u88_normal.png');
+}
+
+.u88_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:20px;
+    height:20px;
+}
+
+#u88_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:26px;
+    height:26px;
+}
+
+.u89 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:16px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u90_normal {
+    background-image: url('../我的厨房_files/u88_normal.png');
+}
+
+.u90_container {
+    position:absolute;
+    left:20px;
+    top:0px;
+    width:20px;
+    height:20px;
+}
+
+#u90_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:26px;
+    height:26px;
+}
+
+.u91 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:16px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
 .u92_normal {
-    background-image: url('../我的厨房_files/u92_normal.png');
+    background-image: url('../我的厨房_files/u88_normal.png');
 }
 
 .u92_container {
     position:absolute;
-    left:0px;
+    left:40px;
     top:0px;
     width:20px;
     height:20px;
@@ -1725,12 +1731,12 @@ div {
 }
 
 .u94_normal {
-    background-image: url('../我的厨房_files/u92_normal.png');
+    background-image: url('../我的厨房_files/u88_normal.png');
 }
 
 .u94_container {
     position:absolute;
-    left:20px;
+    left:60px;
     top:0px;
     width:20px;
     height:20px;
@@ -1759,12 +1765,12 @@ div {
 }
 
 .u96_normal {
-    background-image: url('../我的厨房_files/u92_normal.png');
+    background-image: url('../我的厨房_files/u88_normal.png');
 }
 
 .u96_container {
     position:absolute;
-    left:40px;
+    left:80px;
     top:0px;
     width:20px;
     height:20px;
@@ -1793,12 +1799,12 @@ div {
 }
 
 .u98_normal {
-    background-image: url('../我的厨房_files/u92_normal.png');
+    background-image: url('../我的厨房_files/u88_normal.png');
 }
 
 .u98_container {
     position:absolute;
-    left:60px;
+    left:100px;
     top:0px;
     width:20px;
     height:20px;
@@ -1827,12 +1833,12 @@ div {
 }
 
 .u100_normal {
-    background-image: url('../我的厨房_files/u92_normal.png');
+    background-image: url('../我的厨房_files/u88_normal.png');
 }
 
 .u100_container {
     position:absolute;
-    left:80px;
+    left:120px;
     top:0px;
     width:20px;
     height:20px;
@@ -1861,13 +1867,13 @@ div {
 }
 
 .u102_normal {
-    background-image: url('../我的厨房_files/u92_normal.png');
+    background-image: url('../我的厨房_files/u88_normal.png');
 }
 
 .u102_container {
     position:absolute;
-    left:100px;
-    top:0px;
+    left:0px;
+    top:20px;
     width:20px;
     height:20px;
 }
@@ -1895,13 +1901,13 @@ div {
 }
 
 .u104_normal {
-    background-image: url('../我的厨房_files/u92_normal.png');
+    background-image: url('../我的厨房_files/u88_normal.png');
 }
 
 .u104_container {
     position:absolute;
-    left:120px;
-    top:0px;
+    left:20px;
+    top:20px;
     width:20px;
     height:20px;
 }
@@ -1929,12 +1935,12 @@ div {
 }
 
 .u106_normal {
-    background-image: url('../我的厨房_files/u92_normal.png');
+    background-image: url('../我的厨房_files/u88_normal.png');
 }
 
 .u106_container {
     position:absolute;
-    left:0px;
+    left:40px;
     top:20px;
     width:20px;
     height:20px;
@@ -1963,12 +1969,12 @@ div {
 }
 
 .u108_normal {
-    background-image: url('../我的厨房_files/u92_normal.png');
+    background-image: url('../我的厨房_files/u88_normal.png');
 }
 
 .u108_container {
     position:absolute;
-    left:20px;
+    left:60px;
     top:20px;
     width:20px;
     height:20px;
@@ -1997,12 +2003,12 @@ div {
 }
 
 .u110_normal {
-    background-image: url('../我的厨房_files/u92_normal.png');
+    background-image: url('../我的厨房_files/u88_normal.png');
 }
 
 .u110_container {
     position:absolute;
-    left:40px;
+    left:80px;
     top:20px;
     width:20px;
     height:20px;
@@ -2031,12 +2037,12 @@ div {
 }
 
 .u112_normal {
-    background-image: url('../我的厨房_files/u92_normal.png');
+    background-image: url('../我的厨房_files/u88_normal.png');
 }
 
 .u112_container {
     position:absolute;
-    left:60px;
+    left:100px;
     top:20px;
     width:20px;
     height:20px;
@@ -2065,12 +2071,12 @@ div {
 }
 
 .u114_normal {
-    background-image: url('../我的厨房_files/u92_normal.png');
+    background-image: url('../我的厨房_files/u114_normal.png');
 }
 
 .u114_container {
     position:absolute;
-    left:80px;
+    left:120px;
     top:20px;
     width:20px;
     height:20px;
@@ -2099,13 +2105,13 @@ div {
 }
 
 .u116_normal {
-    background-image: url('../我的厨房_files/u92_normal.png');
+    background-image: url('../我的厨房_files/u88_normal.png');
 }
 
 .u116_container {
     position:absolute;
-    left:100px;
-    top:20px;
+    left:0px;
+    top:40px;
     width:20px;
     height:20px;
 }
@@ -2133,13 +2139,13 @@ div {
 }
 
 .u118_normal {
-    background-image: url('../我的厨房_files/u118_normal.png');
+    background-image: url('../我的厨房_files/u88_normal.png');
 }
 
 .u118_container {
     position:absolute;
-    left:120px;
-    top:20px;
+    left:20px;
+    top:40px;
     width:20px;
     height:20px;
 }
@@ -2167,12 +2173,12 @@ div {
 }
 
 .u120_normal {
-    background-image: url('../我的厨房_files/u92_normal.png');
+    background-image: url('../我的厨房_files/u88_normal.png');
 }
 
 .u120_container {
     position:absolute;
-    left:0px;
+    left:40px;
     top:40px;
     width:20px;
     height:20px;
@@ -2201,12 +2207,12 @@ div {
 }
 
 .u122_normal {
-    background-image: url('../我的厨房_files/u92_normal.png');
+    background-image: url('../我的厨房_files/u88_normal.png');
 }
 
 .u122_container {
     position:absolute;
-    left:20px;
+    left:60px;
     top:40px;
     width:20px;
     height:20px;
@@ -2235,12 +2241,12 @@ div {
 }
 
 .u124_normal {
-    background-image: url('../我的厨房_files/u92_normal.png');
+    background-image: url('../我的厨房_files/u88_normal.png');
 }
 
 .u124_container {
     position:absolute;
-    left:40px;
+    left:80px;
     top:40px;
     width:20px;
     height:20px;
@@ -2269,12 +2275,12 @@ div {
 }
 
 .u126_normal {
-    background-image: url('../我的厨房_files/u92_normal.png');
+    background-image: url('../我的厨房_files/u88_normal.png');
 }
 
 .u126_container {
     position:absolute;
-    left:60px;
+    left:100px;
     top:40px;
     width:20px;
     height:20px;
@@ -2303,12 +2309,12 @@ div {
 }
 
 .u128_normal {
-    background-image: url('../我的厨房_files/u92_normal.png');
+    background-image: url('../我的厨房_files/u88_normal.png');
 }
 
 .u128_container {
     position:absolute;
-    left:80px;
+    left:120px;
     top:40px;
     width:20px;
     height:20px;
@@ -2337,13 +2343,13 @@ div {
 }
 
 .u130_normal {
-    background-image: url('../我的厨房_files/u92_normal.png');
+    background-image: url('../我的厨房_files/u88_normal.png');
 }
 
 .u130_container {
     position:absolute;
-    left:100px;
-    top:40px;
+    left:0px;
+    top:60px;
     width:20px;
     height:20px;
 }
@@ -2371,13 +2377,13 @@ div {
 }
 
 .u132_normal {
-    background-image: url('../我的厨房_files/u92_normal.png');
+    background-image: url('../我的厨房_files/u88_normal.png');
 }
 
 .u132_container {
     position:absolute;
-    left:120px;
-    top:40px;
+    left:20px;
+    top:60px;
     width:20px;
     height:20px;
 }
@@ -2405,12 +2411,12 @@ div {
 }
 
 .u134_normal {
-    background-image: url('../我的厨房_files/u92_normal.png');
+    background-image: url('../我的厨房_files/u88_normal.png');
 }
 
 .u134_container {
     position:absolute;
-    left:0px;
+    left:40px;
     top:60px;
     width:20px;
     height:20px;
@@ -2439,12 +2445,12 @@ div {
 }
 
 .u136_normal {
-    background-image: url('../我的厨房_files/u92_normal.png');
+    background-image: url('../我的厨房_files/u88_normal.png');
 }
 
 .u136_container {
     position:absolute;
-    left:20px;
+    left:60px;
     top:60px;
     width:20px;
     height:20px;
@@ -2473,12 +2479,12 @@ div {
 }
 
 .u138_normal {
-    background-image: url('../我的厨房_files/u92_normal.png');
+    background-image: url('../我的厨房_files/u88_normal.png');
 }
 
 .u138_container {
     position:absolute;
-    left:40px;
+    left:80px;
     top:60px;
     width:20px;
     height:20px;
@@ -2507,12 +2513,12 @@ div {
 }
 
 .u140_normal {
-    background-image: url('../我的厨房_files/u92_normal.png');
+    background-image: url('../我的厨房_files/u88_normal.png');
 }
 
 .u140_container {
     position:absolute;
-    left:60px;
+    left:100px;
     top:60px;
     width:20px;
     height:20px;
@@ -2541,12 +2547,12 @@ div {
 }
 
 .u142_normal {
-    background-image: url('../我的厨房_files/u92_normal.png');
+    background-image: url('../我的厨房_files/u88_normal.png');
 }
 
 .u142_container {
     position:absolute;
-    left:80px;
+    left:120px;
     top:60px;
     width:20px;
     height:20px;
@@ -2575,13 +2581,13 @@ div {
 }
 
 .u144_normal {
-    background-image: url('../我的厨房_files/u92_normal.png');
+    background-image: url('../我的厨房_files/u88_normal.png');
 }
 
 .u144_container {
     position:absolute;
-    left:100px;
-    top:60px;
+    left:0px;
+    top:80px;
     width:20px;
     height:20px;
 }
@@ -2609,13 +2615,13 @@ div {
 }
 
 .u146_normal {
-    background-image: url('../我的厨房_files/u92_normal.png');
+    background-image: url('../我的厨房_files/u88_normal.png');
 }
 
 .u146_container {
     position:absolute;
-    left:120px;
-    top:60px;
+    left:20px;
+    top:80px;
     width:20px;
     height:20px;
 }
@@ -2643,12 +2649,12 @@ div {
 }
 
 .u148_normal {
-    background-image: url('../我的厨房_files/u92_normal.png');
+    background-image: url('../我的厨房_files/u148_normal.png');
 }
 
 .u148_container {
     position:absolute;
-    left:0px;
+    left:40px;
     top:80px;
     width:20px;
     height:20px;
@@ -2677,12 +2683,12 @@ div {
 }
 
 .u150_normal {
-    background-image: url('../我的厨房_files/u92_normal.png');
+    background-image: url('../我的厨房_files/u148_normal.png');
 }
 
 .u150_container {
     position:absolute;
-    left:20px;
+    left:60px;
     top:80px;
     width:20px;
     height:20px;
@@ -2711,12 +2717,12 @@ div {
 }
 
 .u152_normal {
-    background-image: url('../我的厨房_files/u152_normal.png');
+    background-image: url('../我的厨房_files/u148_normal.png');
 }
 
 .u152_container {
     position:absolute;
-    left:40px;
+    left:80px;
     top:80px;
     width:20px;
     height:20px;
@@ -2745,12 +2751,12 @@ div {
 }
 
 .u154_normal {
-    background-image: url('../我的厨房_files/u152_normal.png');
+    background-image: url('../我的厨房_files/u148_normal.png');
 }
 
 .u154_container {
     position:absolute;
-    left:60px;
+    left:100px;
     top:80px;
     width:20px;
     height:20px;
@@ -2779,12 +2785,12 @@ div {
 }
 
 .u156_normal {
-    background-image: url('../我的厨房_files/u152_normal.png');
+    background-image: url('../我的厨房_files/u148_normal.png');
 }
 
 .u156_container {
     position:absolute;
-    left:80px;
+    left:120px;
     top:80px;
     width:20px;
     height:20px;
@@ -2813,13 +2819,13 @@ div {
 }
 
 .u158_normal {
-    background-image: url('../我的厨房_files/u152_normal.png');
+    background-image: url('../我的厨房_files/u148_normal.png');
 }
 
 .u158_container {
     position:absolute;
-    left:100px;
-    top:80px;
+    left:0px;
+    top:100px;
     width:20px;
     height:20px;
 }
@@ -2847,13 +2853,13 @@ div {
 }
 
 .u160_normal {
-    background-image: url('../我的厨房_files/u152_normal.png');
+    background-image: url('../我的厨房_files/u148_normal.png');
 }
 
 .u160_container {
     position:absolute;
-    left:120px;
-    top:80px;
+    left:20px;
+    top:100px;
     width:20px;
     height:20px;
 }
@@ -2881,12 +2887,12 @@ div {
 }
 
 .u162_normal {
-    background-image: url('../我的厨房_files/u152_normal.png');
+    background-image: url('../我的厨房_files/u148_normal.png');
 }
 
 .u162_container {
     position:absolute;
-    left:0px;
+    left:40px;
     top:100px;
     width:20px;
     height:20px;
@@ -2915,12 +2921,12 @@ div {
 }
 
 .u164_normal {
-    background-image: url('../我的厨房_files/u152_normal.png');
+    background-image: url('../我的厨房_files/u148_normal.png');
 }
 
 .u164_container {
     position:absolute;
-    left:20px;
+    left:60px;
     top:100px;
     width:20px;
     height:20px;
@@ -2949,12 +2955,12 @@ div {
 }
 
 .u166_normal {
-    background-image: url('../我的厨房_files/u152_normal.png');
+    background-image: url('../我的厨房_files/u148_normal.png');
 }
 
 .u166_container {
     position:absolute;
-    left:40px;
+    left:80px;
     top:100px;
     width:20px;
     height:20px;
@@ -2983,12 +2989,12 @@ div {
 }
 
 .u168_normal {
-    background-image: url('../我的厨房_files/u152_normal.png');
+    background-image: url('../我的厨房_files/u148_normal.png');
 }
 
 .u168_container {
     position:absolute;
-    left:60px;
+    left:100px;
     top:100px;
     width:20px;
     height:20px;
@@ -3017,12 +3023,12 @@ div {
 }
 
 .u170_normal {
-    background-image: url('../我的厨房_files/u152_normal.png');
+    background-image: url('../我的厨房_files/u148_normal.png');
 }
 
 .u170_container {
     position:absolute;
-    left:80px;
+    left:120px;
     top:100px;
     width:20px;
     height:20px;
@@ -3050,75 +3056,7 @@ div {
     word-wrap:break-word;
 }
 
-.u172_normal {
-    background-image: url('../我的厨房_files/u152_normal.png');
-}
-
-.u172_container {
-    position:absolute;
-    left:100px;
-    top:100px;
-    width:20px;
-    height:20px;
-}
-
-#u172_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:26px;
-    height:26px;
-}
-
-.u173 {
-    position:absolute;
-    left:2px;
-    top:2px;
-    width:16px;
-    height:15px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u174_normal {
-    background-image: url('../我的厨房_files/u152_normal.png');
-}
-
-.u174_container {
-    position:absolute;
-    left:120px;
-    top:100px;
-    width:20px;
-    height:20px;
-}
-
-#u174_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:26px;
-    height:26px;
-}
-
-.u175 {
-    position:absolute;
-    left:2px;
-    top:2px;
-    width:16px;
-    height:15px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u176 {
+.u172 {
     position:absolute;
     left:10px;
     top:35px;
@@ -3132,7 +3070,7 @@ div {
     word-wrap:break-word;
 }
 
-.u177 {
+.u173 {
     position:absolute;
     left:130px;
     top:35px;
@@ -3146,7 +3084,7 @@ div {
     word-wrap:break-word;
 }
 
-.u178 {
+.u174 {
     position:absolute;
     left:30px;
     top:35px;
@@ -3160,7 +3098,7 @@ div {
     word-wrap:break-word;
 }
 
-.u179 {
+.u175 {
     position:absolute;
     left:50px;
     top:35px;
@@ -3174,7 +3112,7 @@ div {
     word-wrap:break-word;
 }
 
-.u180 {
+.u176 {
     position:absolute;
     left:70px;
     top:35px;
@@ -3188,7 +3126,7 @@ div {
     word-wrap:break-word;
 }
 
-.u181 {
+.u177 {
     position:absolute;
     left:90px;
     top:35px;
@@ -3202,7 +3140,7 @@ div {
     word-wrap:break-word;
 }
 
-.u182 {
+.u178 {
     position:absolute;
     left:110px;
     top:35px;
@@ -3216,27 +3154,27 @@ div {
     word-wrap:break-word;
 }
 
-.u183_mouseOver {
-    background-image: url('../我的厨房_files/button_u183_mouseOver.png');
+.u179_mouseOver {
+    background-image: url('../我的厨房_files/button_u179_mouseOver.png');
 }
 
-.u183_mouseDown {
-    background-image: url('../我的厨房_files/button_u183_mouseDown.png');
+.u179_mouseDown {
+    background-image: url('../我的厨房_files/button_u179_mouseDown.png');
 }
 
-.u183_selected {
-    background-image: url('../我的厨房_files/button_u183_selected.png');
+.u179_selected {
+    background-image: url('../我的厨房_files/button_u179_selected.png');
 }
 
-.u183_disabled {
-    background-image: url('../我的厨房_files/button_u183_disabled.png');
+.u179_disabled {
+    background-image: url('../我的厨房_files/button_u179_disabled.png');
 }
 
-.u183_normal {
-    background-image: url('../我的厨房_files/button_u183_normal.png');
+.u179_normal {
+    background-image: url('../我的厨房_files/button_u179_normal.png');
 }
 
-.u183_container {
+.u179_container {
     position:absolute;
     left:344px;
     top:251px;
@@ -3244,7 +3182,7 @@ div {
     height:28px;
 }
 
-#u183_img {
+#u179_img {
     position:absolute;
     left:-3px;
     top:-3px;
@@ -3252,7 +3190,7 @@ div {
     height:34px;
 }
 
-.u184 {
+.u180 {
     position:absolute;
     left:2px;
     top:7px;
@@ -3266,11 +3204,11 @@ div {
     word-wrap:break-word;
 }
 
-.u185_line {
-    background-image: url('../我的厨房_files/u185_line.png');
+.u181_line {
+    background-image: url('../我的厨房_files/u181_line.png');
 }
 
-.u185_line {
+.u181_line {
     position:absolute;
     left:0px;
     top:4px;
@@ -3278,7 +3216,7 @@ div {
     height:3px;
 }
 
-.u185 {
+.u181 {
     position:absolute;
     left:346px;
     top:274px;
@@ -3287,23 +3225,23 @@ div {
     
 }
 
-.u186_mouseOver {
-    background-image: url('../我的厨房_files/button_u186_mouseOver.png');
+.u182_mouseOver {
+    background-image: url('../我的厨房_files/button_u182_mouseOver.png');
 }
 
-.u186_mouseDown {
-    background-image: url('../我的厨房_files/button_u186_mouseDown.png');
+.u182_mouseDown {
+    background-image: url('../我的厨房_files/button_u182_mouseDown.png');
 }
 
-.u186_disabled {
-    background-image: url('../我的厨房_files/button_u186_disabled.png');
+.u182_disabled {
+    background-image: url('../我的厨房_files/button_u182_disabled.png');
 }
 
-.u186_normal {
-    background-image: url('../我的厨房_files/button_u186_normal.png');
+.u182_normal {
+    background-image: url('../我的厨房_files/button_u182_normal.png');
 }
 
-.u186_container {
+.u182_container {
     position:absolute;
     left:205px;
     top:250px;
@@ -3311,7 +3249,7 @@ div {
     height:29px;
 }
 
-#u186_img {
+#u182_img {
     position:absolute;
     left:-3px;
     top:-3px;
@@ -3319,7 +3257,7 @@ div {
     height:35px;
 }
 
-.u187 {
+.u183 {
     position:absolute;
     left:2px;
     top:8px;
@@ -3333,11 +3271,11 @@ div {
     word-wrap:break-word;
 }
 
-.u188_line {
-    background-image: url('../我的厨房_files/u188_line.png');
+.u184_line {
+    background-image: url('../我的厨房_files/u184_line.png');
 }
 
-.u188_line {
+.u184_line {
     position:absolute;
     left:0px;
     top:4px;
@@ -3345,7 +3283,7 @@ div {
     height:3px;
 }
 
-.u188 {
+.u184 {
     position:absolute;
     left:207px;
     top:273px;
@@ -3354,12 +3292,80 @@ div {
     
 }
 
-#u189 {
+#u185 {
     position:absolute;
     left:40px;
     top:347px;
     width:762px;
     height:211px
+}
+
+.u186_normal {
+    background-image: url('../我的厨房_files/u186_normal.png');
+}
+
+.u186_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:97px;
+    height:46px;
+}
+
+#u186_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:103px;
+    height:52px;
+}
+
+.u187 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:93px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u188_normal {
+    background-image: url('../我的厨房_files/u188_normal.png');
+}
+
+.u188_container {
+    position:absolute;
+    left:97px;
+    top:0px;
+    width:100px;
+    height:46px;
+}
+
+#u188_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:52px;
+}
+
+.u189 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:96px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
 }
 
 .u190_normal {
@@ -3368,9 +3374,9 @@ div {
 
 .u190_container {
     position:absolute;
-    left:0px;
+    left:197px;
     top:0px;
-    width:97px;
+    width:54px;
     height:46px;
 }
 
@@ -3378,7 +3384,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:103px;
+    width:60px;
     height:52px;
 }
 
@@ -3386,7 +3392,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:93px;
+    width:50px;
     height:14px;
     ;
     ;
@@ -3402,9 +3408,9 @@ div {
 
 .u192_container {
     position:absolute;
-    left:97px;
+    left:251px;
     top:0px;
-    width:100px;
+    width:35px;
     height:46px;
 }
 
@@ -3412,7 +3418,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:106px;
+    width:41px;
     height:52px;
 }
 
@@ -3420,8 +3426,8 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:96px;
-    height:14px;
+    width:31px;
+    height:28px;
     ;
     ;
     ;
@@ -3436,9 +3442,9 @@ div {
 
 .u194_container {
     position:absolute;
-    left:197px;
+    left:286px;
     top:0px;
-    width:54px;
+    width:41px;
     height:46px;
 }
 
@@ -3446,7 +3452,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:60px;
+    width:47px;
     height:52px;
 }
 
@@ -3454,8 +3460,8 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:50px;
-    height:14px;
+    width:37px;
+    height:42px;
     ;
     ;
     ;
@@ -3470,9 +3476,9 @@ div {
 
 .u196_container {
     position:absolute;
-    left:251px;
+    left:327px;
     top:0px;
-    width:35px;
+    width:157px;
     height:46px;
 }
 
@@ -3480,7 +3486,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:41px;
+    width:163px;
     height:52px;
 }
 
@@ -3488,8 +3494,8 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:31px;
-    height:28px;
+    width:153px;
+    height:14px;
     ;
     ;
     ;
@@ -3504,9 +3510,9 @@ div {
 
 .u198_container {
     position:absolute;
-    left:286px;
+    left:484px;
     top:0px;
-    width:41px;
+    width:173px;
     height:46px;
 }
 
@@ -3514,7 +3520,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:47px;
+    width:179px;
     height:52px;
 }
 
@@ -3522,8 +3528,8 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:37px;
-    height:42px;
+    width:169px;
+    height:14px;
     ;
     ;
     ;
@@ -3533,14 +3539,14 @@ div {
 }
 
 .u200_normal {
-    background-image: url('../我的厨房_files/u200_normal.png');
+    background-image: url('../我的厨房_files/u188_normal.png');
 }
 
 .u200_container {
     position:absolute;
-    left:327px;
+    left:657px;
     top:0px;
-    width:157px;
+    width:100px;
     height:46px;
 }
 
@@ -3548,7 +3554,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:163px;
+    width:106px;
     height:52px;
 }
 
@@ -3556,8 +3562,8 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:153px;
-    height:14px;
+    width:96px;
+    height:16px;
     ;
     ;
     ;
@@ -3572,25 +3578,25 @@ div {
 
 .u202_container {
     position:absolute;
-    left:484px;
-    top:0px;
-    width:173px;
-    height:46px;
+    left:0px;
+    top:46px;
+    width:97px;
+    height:20px;
 }
 
 #u202_img {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:179px;
-    height:52px;
+    width:103px;
+    height:26px;
 }
 
 .u203 {
     position:absolute;
     left:2px;
     top:2px;
-    width:169px;
+    width:93px;
     height:14px;
     ;
     ;
@@ -3601,15 +3607,15 @@ div {
 }
 
 .u204_normal {
-    background-image: url('../我的厨房_files/u192_normal.png');
+    background-image: url('../我的厨房_files/u204_normal.png');
 }
 
 .u204_container {
     position:absolute;
-    left:657px;
-    top:0px;
+    left:97px;
+    top:46px;
     width:100px;
-    height:46px;
+    height:20px;
 }
 
 #u204_img {
@@ -3617,7 +3623,7 @@ div {
     left:-3px;
     top:-3px;
     width:106px;
-    height:52px;
+    height:26px;
 }
 
 .u205 {
@@ -3625,7 +3631,7 @@ div {
     left:2px;
     top:2px;
     width:96px;
-    height:16px;
+    height:14px;
     ;
     ;
     ;
@@ -3640,9 +3646,9 @@ div {
 
 .u206_container {
     position:absolute;
-    left:0px;
+    left:197px;
     top:46px;
-    width:97px;
+    width:54px;
     height:20px;
 }
 
@@ -3650,7 +3656,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:103px;
+    width:60px;
     height:26px;
 }
 
@@ -3658,7 +3664,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:93px;
+    width:50px;
     height:14px;
     ;
     ;
@@ -3674,9 +3680,9 @@ div {
 
 .u208_container {
     position:absolute;
-    left:97px;
+    left:251px;
     top:46px;
-    width:100px;
+    width:35px;
     height:20px;
 }
 
@@ -3684,7 +3690,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:106px;
+    width:41px;
     height:26px;
 }
 
@@ -3692,7 +3698,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:96px;
+    width:31px;
     height:14px;
     ;
     ;
@@ -3708,9 +3714,9 @@ div {
 
 .u210_container {
     position:absolute;
-    left:197px;
+    left:286px;
     top:46px;
-    width:54px;
+    width:41px;
     height:20px;
 }
 
@@ -3718,7 +3724,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:60px;
+    width:47px;
     height:26px;
 }
 
@@ -3726,7 +3732,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:50px;
+    width:37px;
     height:14px;
     ;
     ;
@@ -3742,9 +3748,9 @@ div {
 
 .u212_container {
     position:absolute;
-    left:251px;
+    left:327px;
     top:46px;
-    width:35px;
+    width:157px;
     height:20px;
 }
 
@@ -3752,7 +3758,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:41px;
+    width:163px;
     height:26px;
 }
 
@@ -3760,7 +3766,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:31px;
+    width:153px;
     height:14px;
     ;
     ;
@@ -3776,9 +3782,9 @@ div {
 
 .u214_container {
     position:absolute;
-    left:286px;
+    left:484px;
     top:46px;
-    width:41px;
+    width:173px;
     height:20px;
 }
 
@@ -3786,7 +3792,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:47px;
+    width:179px;
     height:26px;
 }
 
@@ -3794,7 +3800,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:37px;
+    width:169px;
     height:14px;
     ;
     ;
@@ -3805,14 +3811,14 @@ div {
 }
 
 .u216_normal {
-    background-image: url('../我的厨房_files/u216_normal.png');
+    background-image: url('../我的厨房_files/u204_normal.png');
 }
 
 .u216_container {
     position:absolute;
-    left:327px;
+    left:657px;
     top:46px;
-    width:157px;
+    width:100px;
     height:20px;
 }
 
@@ -3820,7 +3826,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:163px;
+    width:106px;
     height:26px;
 }
 
@@ -3828,7 +3834,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:153px;
+    width:96px;
     height:14px;
     ;
     ;
@@ -3844,9 +3850,9 @@ div {
 
 .u218_container {
     position:absolute;
-    left:484px;
-    top:46px;
-    width:173px;
+    left:0px;
+    top:66px;
+    width:97px;
     height:20px;
 }
 
@@ -3854,7 +3860,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:179px;
+    width:103px;
     height:26px;
 }
 
@@ -3862,8 +3868,8 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:169px;
-    height:14px;
+    width:93px;
+    height:16px;
     ;
     ;
     ;
@@ -3873,13 +3879,13 @@ div {
 }
 
 .u220_normal {
-    background-image: url('../我的厨房_files/u208_normal.png');
+    background-image: url('../我的厨房_files/u220_normal.png');
 }
 
 .u220_container {
     position:absolute;
-    left:657px;
-    top:46px;
+    left:97px;
+    top:66px;
     width:100px;
     height:20px;
 }
@@ -3897,7 +3903,7 @@ div {
     left:2px;
     top:2px;
     width:96px;
-    height:14px;
+    height:16px;
     ;
     ;
     ;
@@ -3912,9 +3918,9 @@ div {
 
 .u222_container {
     position:absolute;
-    left:0px;
+    left:197px;
     top:66px;
-    width:97px;
+    width:54px;
     height:20px;
 }
 
@@ -3922,7 +3928,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:103px;
+    width:60px;
     height:26px;
 }
 
@@ -3930,7 +3936,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:93px;
+    width:50px;
     height:16px;
     ;
     ;
@@ -3946,9 +3952,9 @@ div {
 
 .u224_container {
     position:absolute;
-    left:97px;
+    left:251px;
     top:66px;
-    width:100px;
+    width:35px;
     height:20px;
 }
 
@@ -3956,7 +3962,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:106px;
+    width:41px;
     height:26px;
 }
 
@@ -3964,7 +3970,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:96px;
+    width:31px;
     height:16px;
     ;
     ;
@@ -3980,9 +3986,9 @@ div {
 
 .u226_container {
     position:absolute;
-    left:197px;
+    left:286px;
     top:66px;
-    width:54px;
+    width:41px;
     height:20px;
 }
 
@@ -3990,7 +3996,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:60px;
+    width:47px;
     height:26px;
 }
 
@@ -3998,7 +4004,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:50px;
+    width:37px;
     height:16px;
     ;
     ;
@@ -4014,9 +4020,9 @@ div {
 
 .u228_container {
     position:absolute;
-    left:251px;
+    left:327px;
     top:66px;
-    width:35px;
+    width:157px;
     height:20px;
 }
 
@@ -4024,7 +4030,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:41px;
+    width:163px;
     height:26px;
 }
 
@@ -4032,7 +4038,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:31px;
+    width:153px;
     height:16px;
     ;
     ;
@@ -4048,9 +4054,9 @@ div {
 
 .u230_container {
     position:absolute;
-    left:286px;
+    left:484px;
     top:66px;
-    width:41px;
+    width:173px;
     height:20px;
 }
 
@@ -4058,79 +4064,11 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:47px;
-    height:26px;
-}
-
-.u231 {
-    position:absolute;
-    left:2px;
-    top:2px;
-    width:37px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u232_normal {
-    background-image: url('../我的厨房_files/u232_normal.png');
-}
-
-.u232_container {
-    position:absolute;
-    left:327px;
-    top:66px;
-    width:157px;
-    height:20px;
-}
-
-#u232_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:163px;
-    height:26px;
-}
-
-.u233 {
-    position:absolute;
-    left:2px;
-    top:2px;
-    width:153px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u234_normal {
-    background-image: url('../我的厨房_files/u234_normal.png');
-}
-
-.u234_container {
-    position:absolute;
-    left:484px;
-    top:66px;
-    width:173px;
-    height:20px;
-}
-
-#u234_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
     width:179px;
     height:26px;
 }
 
-.u235 {
+.u231 {
     position:absolute;
     left:2px;
     top:2px;
@@ -4144,14 +4082,82 @@ div {
     word-wrap:break-word;
 }
 
+.u232_normal {
+    background-image: url('../我的厨房_files/u220_normal.png');
+}
+
+.u232_container {
+    position:absolute;
+    left:657px;
+    top:66px;
+    width:100px;
+    height:20px;
+}
+
+#u232_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:26px;
+}
+
+.u233 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u234_normal {
+    background-image: url('../我的厨房_files/u202_normal.png');
+}
+
+.u234_container {
+    position:absolute;
+    left:0px;
+    top:86px;
+    width:97px;
+    height:20px;
+}
+
+#u234_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:103px;
+    height:26px;
+}
+
+.u235 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:93px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
 .u236_normal {
-    background-image: url('../我的厨房_files/u224_normal.png');
+    background-image: url('../我的厨房_files/u204_normal.png');
 }
 
 .u236_container {
     position:absolute;
-    left:657px;
-    top:66px;
+    left:97px;
+    top:86px;
     width:100px;
     height:20px;
 }
@@ -4184,9 +4190,9 @@ div {
 
 .u238_container {
     position:absolute;
-    left:0px;
+    left:197px;
     top:86px;
-    width:97px;
+    width:54px;
     height:20px;
 }
 
@@ -4194,7 +4200,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:103px;
+    width:60px;
     height:26px;
 }
 
@@ -4202,7 +4208,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:93px;
+    width:50px;
     height:16px;
     ;
     ;
@@ -4218,9 +4224,9 @@ div {
 
 .u240_container {
     position:absolute;
-    left:97px;
+    left:251px;
     top:86px;
-    width:100px;
+    width:35px;
     height:20px;
 }
 
@@ -4228,7 +4234,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:106px;
+    width:41px;
     height:26px;
 }
 
@@ -4236,7 +4242,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:96px;
+    width:31px;
     height:16px;
     ;
     ;
@@ -4252,9 +4258,9 @@ div {
 
 .u242_container {
     position:absolute;
-    left:197px;
+    left:286px;
     top:86px;
-    width:54px;
+    width:41px;
     height:20px;
 }
 
@@ -4262,7 +4268,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:60px;
+    width:47px;
     height:26px;
 }
 
@@ -4270,7 +4276,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:50px;
+    width:37px;
     height:16px;
     ;
     ;
@@ -4286,9 +4292,9 @@ div {
 
 .u244_container {
     position:absolute;
-    left:251px;
+    left:327px;
     top:86px;
-    width:35px;
+    width:157px;
     height:20px;
 }
 
@@ -4296,7 +4302,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:41px;
+    width:163px;
     height:26px;
 }
 
@@ -4304,7 +4310,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:31px;
+    width:153px;
     height:16px;
     ;
     ;
@@ -4320,9 +4326,9 @@ div {
 
 .u246_container {
     position:absolute;
-    left:286px;
+    left:484px;
     top:86px;
-    width:41px;
+    width:173px;
     height:20px;
 }
 
@@ -4330,7 +4336,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:47px;
+    width:179px;
     height:26px;
 }
 
@@ -4338,7 +4344,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:37px;
+    width:169px;
     height:16px;
     ;
     ;
@@ -4349,14 +4355,14 @@ div {
 }
 
 .u248_normal {
-    background-image: url('../我的厨房_files/u216_normal.png');
+    background-image: url('../我的厨房_files/u204_normal.png');
 }
 
 .u248_container {
     position:absolute;
-    left:327px;
+    left:657px;
     top:86px;
-    width:157px;
+    width:100px;
     height:20px;
 }
 
@@ -4364,7 +4370,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:163px;
+    width:106px;
     height:26px;
 }
 
@@ -4372,7 +4378,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:153px;
+    width:96px;
     height:16px;
     ;
     ;
@@ -4388,9 +4394,9 @@ div {
 
 .u250_container {
     position:absolute;
-    left:484px;
-    top:86px;
-    width:173px;
+    left:0px;
+    top:106px;
+    width:97px;
     height:20px;
 }
 
@@ -4398,7 +4404,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:179px;
+    width:103px;
     height:26px;
 }
 
@@ -4406,7 +4412,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:169px;
+    width:93px;
     height:16px;
     ;
     ;
@@ -4417,13 +4423,13 @@ div {
 }
 
 .u252_normal {
-    background-image: url('../我的厨房_files/u208_normal.png');
+    background-image: url('../我的厨房_files/u220_normal.png');
 }
 
 .u252_container {
     position:absolute;
-    left:657px;
-    top:86px;
+    left:97px;
+    top:106px;
     width:100px;
     height:20px;
 }
@@ -4456,9 +4462,9 @@ div {
 
 .u254_container {
     position:absolute;
-    left:0px;
+    left:197px;
     top:106px;
-    width:97px;
+    width:54px;
     height:20px;
 }
 
@@ -4466,7 +4472,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:103px;
+    width:60px;
     height:26px;
 }
 
@@ -4474,7 +4480,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:93px;
+    width:50px;
     height:16px;
     ;
     ;
@@ -4490,9 +4496,9 @@ div {
 
 .u256_container {
     position:absolute;
-    left:97px;
+    left:251px;
     top:106px;
-    width:100px;
+    width:35px;
     height:20px;
 }
 
@@ -4500,7 +4506,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:106px;
+    width:41px;
     height:26px;
 }
 
@@ -4508,7 +4514,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:96px;
+    width:31px;
     height:16px;
     ;
     ;
@@ -4524,9 +4530,9 @@ div {
 
 .u258_container {
     position:absolute;
-    left:197px;
+    left:286px;
     top:106px;
-    width:54px;
+    width:41px;
     height:20px;
 }
 
@@ -4534,7 +4540,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:60px;
+    width:47px;
     height:26px;
 }
 
@@ -4542,7 +4548,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:50px;
+    width:37px;
     height:16px;
     ;
     ;
@@ -4558,9 +4564,9 @@ div {
 
 .u260_container {
     position:absolute;
-    left:251px;
+    left:327px;
     top:106px;
-    width:35px;
+    width:157px;
     height:20px;
 }
 
@@ -4568,7 +4574,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:41px;
+    width:163px;
     height:26px;
 }
 
@@ -4576,7 +4582,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:31px;
+    width:153px;
     height:16px;
     ;
     ;
@@ -4592,9 +4598,9 @@ div {
 
 .u262_container {
     position:absolute;
-    left:286px;
+    left:484px;
     top:106px;
-    width:41px;
+    width:173px;
     height:20px;
 }
 
@@ -4602,79 +4608,11 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:47px;
-    height:26px;
-}
-
-.u263 {
-    position:absolute;
-    left:2px;
-    top:2px;
-    width:37px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u264_normal {
-    background-image: url('../我的厨房_files/u232_normal.png');
-}
-
-.u264_container {
-    position:absolute;
-    left:327px;
-    top:106px;
-    width:157px;
-    height:20px;
-}
-
-#u264_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:163px;
-    height:26px;
-}
-
-.u265 {
-    position:absolute;
-    left:2px;
-    top:2px;
-    width:153px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u266_normal {
-    background-image: url('../我的厨房_files/u234_normal.png');
-}
-
-.u266_container {
-    position:absolute;
-    left:484px;
-    top:106px;
-    width:173px;
-    height:20px;
-}
-
-#u266_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
     width:179px;
     height:26px;
 }
 
-.u267 {
+.u263 {
     position:absolute;
     left:2px;
     top:2px;
@@ -4688,14 +4626,82 @@ div {
     word-wrap:break-word;
 }
 
+.u264_normal {
+    background-image: url('../我的厨房_files/u220_normal.png');
+}
+
+.u264_container {
+    position:absolute;
+    left:657px;
+    top:106px;
+    width:100px;
+    height:20px;
+}
+
+#u264_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:26px;
+}
+
+.u265 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u266_normal {
+    background-image: url('../我的厨房_files/u202_normal.png');
+}
+
+.u266_container {
+    position:absolute;
+    left:0px;
+    top:126px;
+    width:97px;
+    height:20px;
+}
+
+#u266_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:103px;
+    height:26px;
+}
+
+.u267 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:93px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
 .u268_normal {
-    background-image: url('../我的厨房_files/u224_normal.png');
+    background-image: url('../我的厨房_files/u204_normal.png');
 }
 
 .u268_container {
     position:absolute;
-    left:657px;
-    top:106px;
+    left:97px;
+    top:126px;
     width:100px;
     height:20px;
 }
@@ -4728,9 +4734,9 @@ div {
 
 .u270_container {
     position:absolute;
-    left:0px;
+    left:197px;
     top:126px;
-    width:97px;
+    width:54px;
     height:20px;
 }
 
@@ -4738,7 +4744,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:103px;
+    width:60px;
     height:26px;
 }
 
@@ -4746,7 +4752,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:93px;
+    width:50px;
     height:16px;
     ;
     ;
@@ -4762,9 +4768,9 @@ div {
 
 .u272_container {
     position:absolute;
-    left:97px;
+    left:251px;
     top:126px;
-    width:100px;
+    width:35px;
     height:20px;
 }
 
@@ -4772,7 +4778,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:106px;
+    width:41px;
     height:26px;
 }
 
@@ -4780,7 +4786,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:96px;
+    width:31px;
     height:16px;
     ;
     ;
@@ -4796,9 +4802,9 @@ div {
 
 .u274_container {
     position:absolute;
-    left:197px;
+    left:286px;
     top:126px;
-    width:54px;
+    width:41px;
     height:20px;
 }
 
@@ -4806,7 +4812,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:60px;
+    width:47px;
     height:26px;
 }
 
@@ -4814,7 +4820,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:50px;
+    width:37px;
     height:16px;
     ;
     ;
@@ -4830,9 +4836,9 @@ div {
 
 .u276_container {
     position:absolute;
-    left:251px;
+    left:327px;
     top:126px;
-    width:35px;
+    width:157px;
     height:20px;
 }
 
@@ -4840,7 +4846,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:41px;
+    width:163px;
     height:26px;
 }
 
@@ -4848,7 +4854,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:31px;
+    width:153px;
     height:16px;
     ;
     ;
@@ -4864,9 +4870,9 @@ div {
 
 .u278_container {
     position:absolute;
-    left:286px;
+    left:484px;
     top:126px;
-    width:41px;
+    width:173px;
     height:20px;
 }
 
@@ -4874,7 +4880,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:47px;
+    width:179px;
     height:26px;
 }
 
@@ -4882,7 +4888,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:37px;
+    width:169px;
     height:16px;
     ;
     ;
@@ -4893,14 +4899,14 @@ div {
 }
 
 .u280_normal {
-    background-image: url('../我的厨房_files/u216_normal.png');
+    background-image: url('../我的厨房_files/u204_normal.png');
 }
 
 .u280_container {
     position:absolute;
-    left:327px;
+    left:657px;
     top:126px;
-    width:157px;
+    width:100px;
     height:20px;
 }
 
@@ -4908,7 +4914,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:163px;
+    width:106px;
     height:26px;
 }
 
@@ -4916,7 +4922,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:153px;
+    width:96px;
     height:16px;
     ;
     ;
@@ -4932,9 +4938,9 @@ div {
 
 .u282_container {
     position:absolute;
-    left:484px;
-    top:126px;
-    width:173px;
+    left:0px;
+    top:146px;
+    width:97px;
     height:20px;
 }
 
@@ -4942,7 +4948,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:179px;
+    width:103px;
     height:26px;
 }
 
@@ -4950,7 +4956,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:169px;
+    width:93px;
     height:16px;
     ;
     ;
@@ -4961,13 +4967,13 @@ div {
 }
 
 .u284_normal {
-    background-image: url('../我的厨房_files/u208_normal.png');
+    background-image: url('../我的厨房_files/u220_normal.png');
 }
 
 .u284_container {
     position:absolute;
-    left:657px;
-    top:126px;
+    left:97px;
+    top:146px;
     width:100px;
     height:20px;
 }
@@ -5000,9 +5006,9 @@ div {
 
 .u286_container {
     position:absolute;
-    left:0px;
+    left:197px;
     top:146px;
-    width:97px;
+    width:54px;
     height:20px;
 }
 
@@ -5010,7 +5016,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:103px;
+    width:60px;
     height:26px;
 }
 
@@ -5018,7 +5024,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:93px;
+    width:50px;
     height:16px;
     ;
     ;
@@ -5034,9 +5040,9 @@ div {
 
 .u288_container {
     position:absolute;
-    left:97px;
+    left:251px;
     top:146px;
-    width:100px;
+    width:35px;
     height:20px;
 }
 
@@ -5044,7 +5050,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:106px;
+    width:41px;
     height:26px;
 }
 
@@ -5052,7 +5058,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:96px;
+    width:31px;
     height:16px;
     ;
     ;
@@ -5068,9 +5074,9 @@ div {
 
 .u290_container {
     position:absolute;
-    left:197px;
+    left:286px;
     top:146px;
-    width:54px;
+    width:41px;
     height:20px;
 }
 
@@ -5078,7 +5084,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:60px;
+    width:47px;
     height:26px;
 }
 
@@ -5086,7 +5092,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:50px;
+    width:37px;
     height:16px;
     ;
     ;
@@ -5102,9 +5108,9 @@ div {
 
 .u292_container {
     position:absolute;
-    left:251px;
+    left:327px;
     top:146px;
-    width:35px;
+    width:157px;
     height:20px;
 }
 
@@ -5112,7 +5118,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:41px;
+    width:163px;
     height:26px;
 }
 
@@ -5120,7 +5126,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:31px;
+    width:153px;
     height:16px;
     ;
     ;
@@ -5136,9 +5142,9 @@ div {
 
 .u294_container {
     position:absolute;
-    left:286px;
+    left:484px;
     top:146px;
-    width:41px;
+    width:173px;
     height:20px;
 }
 
@@ -5146,79 +5152,11 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:47px;
-    height:26px;
-}
-
-.u295 {
-    position:absolute;
-    left:2px;
-    top:2px;
-    width:37px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u296_normal {
-    background-image: url('../我的厨房_files/u232_normal.png');
-}
-
-.u296_container {
-    position:absolute;
-    left:327px;
-    top:146px;
-    width:157px;
-    height:20px;
-}
-
-#u296_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:163px;
-    height:26px;
-}
-
-.u297 {
-    position:absolute;
-    left:2px;
-    top:2px;
-    width:153px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u298_normal {
-    background-image: url('../我的厨房_files/u234_normal.png');
-}
-
-.u298_container {
-    position:absolute;
-    left:484px;
-    top:146px;
-    width:173px;
-    height:20px;
-}
-
-#u298_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
     width:179px;
     height:26px;
 }
 
-.u299 {
+.u295 {
     position:absolute;
     left:2px;
     top:2px;
@@ -5232,14 +5170,82 @@ div {
     word-wrap:break-word;
 }
 
+.u296_normal {
+    background-image: url('../我的厨房_files/u220_normal.png');
+}
+
+.u296_container {
+    position:absolute;
+    left:657px;
+    top:146px;
+    width:100px;
+    height:20px;
+}
+
+#u296_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:26px;
+}
+
+.u297 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u298_normal {
+    background-image: url('../我的厨房_files/u202_normal.png');
+}
+
+.u298_container {
+    position:absolute;
+    left:0px;
+    top:166px;
+    width:97px;
+    height:20px;
+}
+
+#u298_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:103px;
+    height:26px;
+}
+
+.u299 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:93px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
 .u300_normal {
-    background-image: url('../我的厨房_files/u224_normal.png');
+    background-image: url('../我的厨房_files/u204_normal.png');
 }
 
 .u300_container {
     position:absolute;
-    left:657px;
-    top:146px;
+    left:97px;
+    top:166px;
     width:100px;
     height:20px;
 }
@@ -5272,9 +5278,9 @@ div {
 
 .u302_container {
     position:absolute;
-    left:0px;
+    left:197px;
     top:166px;
-    width:97px;
+    width:54px;
     height:20px;
 }
 
@@ -5282,7 +5288,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:103px;
+    width:60px;
     height:26px;
 }
 
@@ -5290,7 +5296,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:93px;
+    width:50px;
     height:16px;
     ;
     ;
@@ -5306,9 +5312,9 @@ div {
 
 .u304_container {
     position:absolute;
-    left:97px;
+    left:251px;
     top:166px;
-    width:100px;
+    width:35px;
     height:20px;
 }
 
@@ -5316,7 +5322,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:106px;
+    width:41px;
     height:26px;
 }
 
@@ -5324,7 +5330,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:96px;
+    width:31px;
     height:16px;
     ;
     ;
@@ -5340,9 +5346,9 @@ div {
 
 .u306_container {
     position:absolute;
-    left:197px;
+    left:286px;
     top:166px;
-    width:54px;
+    width:41px;
     height:20px;
 }
 
@@ -5350,7 +5356,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:60px;
+    width:47px;
     height:26px;
 }
 
@@ -5358,7 +5364,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:50px;
+    width:37px;
     height:16px;
     ;
     ;
@@ -5374,9 +5380,9 @@ div {
 
 .u308_container {
     position:absolute;
-    left:251px;
+    left:327px;
     top:166px;
-    width:35px;
+    width:157px;
     height:20px;
 }
 
@@ -5384,7 +5390,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:41px;
+    width:163px;
     height:26px;
 }
 
@@ -5392,7 +5398,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:31px;
+    width:153px;
     height:16px;
     ;
     ;
@@ -5408,9 +5414,9 @@ div {
 
 .u310_container {
     position:absolute;
-    left:286px;
+    left:484px;
     top:166px;
-    width:41px;
+    width:173px;
     height:20px;
 }
 
@@ -5418,7 +5424,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:47px;
+    width:179px;
     height:26px;
 }
 
@@ -5426,7 +5432,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:37px;
+    width:169px;
     height:16px;
     ;
     ;
@@ -5437,14 +5443,14 @@ div {
 }
 
 .u312_normal {
-    background-image: url('../我的厨房_files/u216_normal.png');
+    background-image: url('../我的厨房_files/u204_normal.png');
 }
 
 .u312_container {
     position:absolute;
-    left:327px;
+    left:657px;
     top:166px;
-    width:157px;
+    width:100px;
     height:20px;
 }
 
@@ -5452,7 +5458,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:163px;
+    width:106px;
     height:26px;
 }
 
@@ -5460,7 +5466,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:153px;
+    width:96px;
     height:16px;
     ;
     ;
@@ -5476,9 +5482,9 @@ div {
 
 .u314_container {
     position:absolute;
-    left:484px;
-    top:166px;
-    width:173px;
+    left:0px;
+    top:186px;
+    width:97px;
     height:20px;
 }
 
@@ -5486,7 +5492,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:179px;
+    width:103px;
     height:26px;
 }
 
@@ -5494,7 +5500,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:169px;
+    width:93px;
     height:16px;
     ;
     ;
@@ -5505,13 +5511,13 @@ div {
 }
 
 .u316_normal {
-    background-image: url('../我的厨房_files/u208_normal.png');
+    background-image: url('../我的厨房_files/u220_normal.png');
 }
 
 .u316_container {
     position:absolute;
-    left:657px;
-    top:166px;
+    left:97px;
+    top:186px;
     width:100px;
     height:20px;
 }
@@ -5544,9 +5550,9 @@ div {
 
 .u318_container {
     position:absolute;
-    left:0px;
+    left:197px;
     top:186px;
-    width:97px;
+    width:54px;
     height:20px;
 }
 
@@ -5554,7 +5560,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:103px;
+    width:60px;
     height:26px;
 }
 
@@ -5562,7 +5568,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:93px;
+    width:50px;
     height:16px;
     ;
     ;
@@ -5578,9 +5584,9 @@ div {
 
 .u320_container {
     position:absolute;
-    left:97px;
+    left:251px;
     top:186px;
-    width:100px;
+    width:35px;
     height:20px;
 }
 
@@ -5588,7 +5594,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:106px;
+    width:41px;
     height:26px;
 }
 
@@ -5596,7 +5602,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:96px;
+    width:31px;
     height:16px;
     ;
     ;
@@ -5612,9 +5618,9 @@ div {
 
 .u322_container {
     position:absolute;
-    left:197px;
+    left:286px;
     top:186px;
-    width:54px;
+    width:41px;
     height:20px;
 }
 
@@ -5622,7 +5628,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:60px;
+    width:47px;
     height:26px;
 }
 
@@ -5630,7 +5636,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:50px;
+    width:37px;
     height:16px;
     ;
     ;
@@ -5646,9 +5652,9 @@ div {
 
 .u324_container {
     position:absolute;
-    left:251px;
+    left:327px;
     top:186px;
-    width:35px;
+    width:157px;
     height:20px;
 }
 
@@ -5656,7 +5662,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:41px;
+    width:163px;
     height:26px;
 }
 
@@ -5664,7 +5670,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:31px;
+    width:153px;
     height:16px;
     ;
     ;
@@ -5680,9 +5686,9 @@ div {
 
 .u326_container {
     position:absolute;
-    left:286px;
+    left:484px;
     top:186px;
-    width:41px;
+    width:173px;
     height:20px;
 }
 
@@ -5690,79 +5696,11 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:47px;
-    height:26px;
-}
-
-.u327 {
-    position:absolute;
-    left:2px;
-    top:2px;
-    width:37px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u328_normal {
-    background-image: url('../我的厨房_files/u232_normal.png');
-}
-
-.u328_container {
-    position:absolute;
-    left:327px;
-    top:186px;
-    width:157px;
-    height:20px;
-}
-
-#u328_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:163px;
-    height:26px;
-}
-
-.u329 {
-    position:absolute;
-    left:2px;
-    top:2px;
-    width:153px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u330_normal {
-    background-image: url('../我的厨房_files/u234_normal.png');
-}
-
-.u330_container {
-    position:absolute;
-    left:484px;
-    top:186px;
-    width:173px;
-    height:20px;
-}
-
-#u330_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
     width:179px;
     height:26px;
 }
 
-.u331 {
+.u327 {
     position:absolute;
     left:2px;
     top:2px;
@@ -5776,11 +5714,11 @@ div {
     word-wrap:break-word;
 }
 
-.u332_normal {
-    background-image: url('../我的厨房_files/u224_normal.png');
+.u328_normal {
+    background-image: url('../我的厨房_files/u220_normal.png');
 }
 
-.u332_container {
+.u328_container {
     position:absolute;
     left:657px;
     top:186px;
@@ -5788,7 +5726,7 @@ div {
     height:20px;
 }
 
-#u332_img {
+#u328_img {
     position:absolute;
     left:-3px;
     top:-3px;
@@ -5796,7 +5734,7 @@ div {
     height:26px;
 }
 
-.u333 {
+.u329 {
     position:absolute;
     left:2px;
     top:2px;
@@ -5810,7 +5748,7 @@ div {
     word-wrap:break-word;
 }
 
-.u334 {
+.u330 {
     position:absolute;
     left:516px;
     top:563px;
@@ -5824,7 +5762,7 @@ div {
     word-wrap:break-word;
 }
 
-.u335 {
+.u331 {
     position:absolute;
     left:531px;
     top:563px;
@@ -5838,7 +5776,7 @@ div {
     word-wrap:break-word;
 }
 
-.u336 {
+.u332 {
     position:absolute;
     left:546px;
     top:563px;
@@ -5852,7 +5790,7 @@ div {
     word-wrap:break-word;
 }
 
-.u337 {
+.u333 {
     position:absolute;
     left:571px;
     top:563px;
@@ -5866,7 +5804,7 @@ div {
     word-wrap:break-word;
 }
 
-.u338 {
+.u334 {
     position:absolute;
     left:596px;
     top:563px;
@@ -5880,7 +5818,7 @@ div {
     word-wrap:break-word;
 }
 
-.u339 {
+.u335 {
     position:absolute;
     left:621px;
     top:563px;
@@ -5894,7 +5832,7 @@ div {
     word-wrap:break-word;
 }
 
-.u340 {
+.u336 {
     position:absolute;
     left:646px;
     top:563px;
@@ -5908,7 +5846,7 @@ div {
     word-wrap:break-word;
 }
 
-.u341 {
+.u337 {
     position:absolute;
     left:671px;
     top:563px;
@@ -5922,7 +5860,7 @@ div {
     word-wrap:break-word;
 }
 
-.u342 {
+.u338 {
     position:absolute;
     left:696px;
     top:563px;
@@ -5936,11 +5874,11 @@ div {
     word-wrap:break-word;
 }
 
-.u343_normal {
-    background-image: url('../我的厨房_files/u343_normal.png');
+.u339_normal {
+    background-image: url('../我的厨房_files/u339_normal.png');
 }
 
-.u343_container {
+.u339_container {
     position:absolute;
     left:721px;
     top:566px;
@@ -5948,7 +5886,7 @@ div {
     height:10px;
 }
 
-#u343_img {
+#u339_img {
     position:absolute;
     left:-3px;
     top:-3px;
@@ -5956,7 +5894,7 @@ div {
     height:16px;
 }
 
-.u344 {
+.u340 {
     position:absolute;
     left:2px;
     top:-3px;
@@ -5970,7 +5908,7 @@ div {
     word-wrap:break-word;
 }
 
-.u345 {
+.u341 {
     position:absolute;
     left:736px;
     top:564px;
@@ -5984,11 +5922,11 @@ div {
     word-wrap:break-word;
 }
 
-.u346_normal {
-    background-image: url('../我的厨房_files/u346_normal.png');
+.u342_normal {
+    background-image: url('../我的厨房_files/u342_normal.png');
 }
 
-.u346_container {
+.u342_container {
     position:absolute;
     left:496px;
     top:566px;
@@ -5996,7 +5934,7 @@ div {
     height:10px;
 }
 
-#u346_img {
+#u342_img {
     position:absolute;
     left:-3px;
     top:-3px;
@@ -6004,7 +5942,7 @@ div {
     height:16px;
 }
 
-.u347 {
+.u343 {
     position:absolute;
     left:2px;
     top:-3px;
@@ -6018,7 +5956,7 @@ div {
     word-wrap:break-word;
 }
 
-.u348 {
+.u344 {
     position:absolute;
     left:441px;
     top:564px;
@@ -6032,7 +5970,7 @@ div {
     word-wrap:break-word;
 }
 
-.u349 {
+.u345 {
     position:absolute;
     left:41px;
     top:50px;
@@ -6046,7 +5984,7 @@ div {
     word-wrap:break-word;
 }
 
-.u350 {
+.u346 {
     position:absolute;
     left:40px;
     top:313px;
@@ -6060,11 +5998,11 @@ div {
     word-wrap:break-word;
 }
 
-.u351_line {
-    background-image: url('../我的厨房_files/u351_line.png');
+.u347_line {
+    background-image: url('../我的厨房_files/u347_line.png');
 }
 
-.u351_line {
+.u347_line {
     position:absolute;
     left:0px;
     top:4px;
@@ -6072,7 +6010,7 @@ div {
     height:3px;
 }
 
-.u351 {
+.u347 {
     position:absolute;
     left:39px;
     top:305px;
@@ -6081,7 +6019,7 @@ div {
     
 }
 
-#pd0u27 {
+#pd0u23 {
     position:absolute;
     left:0px;
     top:0px;
@@ -6090,11 +6028,11 @@ div {
     
 }
 
-.u352_normal {
-    background-image: url('../我的厨房_files/u29_normal.png');
+.u348_normal {
+    background-image: url('../我的厨房_files/u25_normal.png');
 }
 
-.u352_container {
+.u348_container {
     position:absolute;
     left:0px;
     top:38px;
@@ -6102,7 +6040,7 @@ div {
     height:2px;
 }
 
-#u352_img {
+#u348_img {
     position:absolute;
     left:-3px;
     top:-3px;
@@ -6110,7 +6048,7 @@ div {
     height:8px;
 }
 
-.u353 {
+.u349 {
     position:absolute;
     left:2px;
     top:-7px;
@@ -6124,11 +6062,11 @@ div {
     word-wrap:break-word;
 }
 
-.u354_line {
-    background-image: url('../我的厨房_files/u354_line.png');
+.u350_line {
+    background-image: url('../我的厨房_files/u350_line.png');
 }
 
-.u354_line {
+.u350_line {
     position:absolute;
     left:0px;
     top:4px;
@@ -6136,7 +6074,7 @@ div {
     height:3px;
 }
 
-.u354 {
+.u350 {
     position:absolute;
     left:0px;
     top:36px;
@@ -6145,11 +6083,11 @@ div {
     
 }
 
-.u355_normal {
-    background-image: url('../我的厨房_files/tab_u355_normal.png');
+.u351_normal {
+    background-image: url('../我的厨房_files/tab_u351_normal.png');
 }
 
-.u355_container {
+.u351_container {
     position:absolute;
     left:21px;
     top:4px;
@@ -6157,7 +6095,7 @@ div {
     height:35px;
 }
 
-#u355_img {
+#u351_img {
     position:absolute;
     left:-3px;
     top:-3px;
@@ -6165,7 +6103,7 @@ div {
     height:41px;
 }
 
-.u356 {
+.u352 {
     position:absolute;
     left:2px;
     top:7px;
@@ -6179,23 +6117,23 @@ div {
     word-wrap:break-word;
 }
 
-.u357_mouseOver {
-    background-image: url('../我的厨房_files/tab_u357_mouseOver.png');
+.u353_mouseOver {
+    background-image: url('../我的厨房_files/tab_u353_mouseOver.png');
 }
 
-.u357_mouseDown {
-    background-image: url('../我的厨房_files/tab_u357_mouseDown.png');
+.u353_mouseDown {
+    background-image: url('../我的厨房_files/tab_u353_mouseDown.png');
 }
 
-.u357_disabled {
-    background-image: url('../我的厨房_files/tab_u357_disabled.png');
+.u353_disabled {
+    background-image: url('../我的厨房_files/tab_u353_disabled.png');
 }
 
-.u357_normal {
-    background-image: url('../我的厨房_files/tab_u357_disabled.png');
+.u353_normal {
+    background-image: url('../我的厨房_files/tab_u353_disabled.png');
 }
 
-.u357_container {
+.u353_container {
     position:absolute;
     left:140px;
     top:4px;
@@ -6203,7 +6141,7 @@ div {
     height:35px;
 }
 
-#u357_img {
+#u353_img {
     position:absolute;
     left:-3px;
     top:-3px;
@@ -6211,7 +6149,7 @@ div {
     height:41px;
 }
 
-.u358 {
+.u354 {
     position:absolute;
     left:2px;
     top:7px;
@@ -6225,7 +6163,7 @@ div {
     word-wrap:break-word;
 }
 
-#u359 {
+#u355 {
     position:absolute;
     left:26px;
     top:65px;
@@ -6233,13 +6171,81 @@ div {
     height:190px
 }
 
+.u356_normal {
+    background-image: url('../我的厨房_files/u356_normal.png');
+}
+
+.u356_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100px;
+    height:25px;
+}
+
+#u356_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:31px;
+}
+
+.u357 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:96px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u358_normal {
+    background-image: url('../我的厨房_files/u358_normal.png');
+}
+
+.u358_container {
+    position:absolute;
+    left:100px;
+    top:0px;
+    width:123px;
+    height:25px;
+}
+
+#u358_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:129px;
+    height:31px;
+}
+
+.u359 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:119px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
 .u360_normal {
-    background-image: url('../我的厨房_files/u360_normal.png');
+    background-image: url('../我的厨房_files/u356_normal.png');
 }
 
 .u360_container {
     position:absolute;
-    left:0px;
+    left:223px;
     top:0px;
     width:100px;
     height:25px;
@@ -6273,9 +6279,9 @@ div {
 
 .u362_container {
     position:absolute;
-    left:100px;
+    left:323px;
     top:0px;
-    width:123px;
+    width:39px;
     height:25px;
 }
 
@@ -6283,7 +6289,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:129px;
+    width:45px;
     height:31px;
 }
 
@@ -6291,7 +6297,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:119px;
+    width:35px;
     height:14px;
     ;
     ;
@@ -6302,14 +6308,14 @@ div {
 }
 
 .u364_normal {
-    background-image: url('../我的厨房_files/u360_normal.png');
+    background-image: url('../我的厨房_files/u364_normal.png');
 }
 
 .u364_container {
     position:absolute;
-    left:223px;
+    left:362px;
     top:0px;
-    width:100px;
+    width:47px;
     height:25px;
 }
 
@@ -6317,7 +6323,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:106px;
+    width:53px;
     height:31px;
 }
 
@@ -6325,7 +6331,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:96px;
+    width:43px;
     height:14px;
     ;
     ;
@@ -6341,9 +6347,9 @@ div {
 
 .u366_container {
     position:absolute;
-    left:323px;
+    left:409px;
     top:0px;
-    width:39px;
+    width:176px;
     height:25px;
 }
 
@@ -6351,7 +6357,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:45px;
+    width:182px;
     height:31px;
 }
 
@@ -6359,8 +6365,8 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:35px;
-    height:14px;
+    width:172px;
+    height:16px;
     ;
     ;
     ;
@@ -6370,30 +6376,30 @@ div {
 }
 
 .u368_normal {
-    background-image: url('../我的厨房_files/u368_normal.png');
+    background-image: url('../我的厨房_files/u204_normal.png');
 }
 
 .u368_container {
     position:absolute;
-    left:362px;
-    top:0px;
-    width:47px;
-    height:25px;
+    left:0px;
+    top:25px;
+    width:100px;
+    height:20px;
 }
 
 #u368_img {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:53px;
-    height:31px;
+    width:106px;
+    height:26px;
 }
 
 .u369 {
     position:absolute;
     left:2px;
     top:2px;
-    width:43px;
+    width:96px;
     height:14px;
     ;
     ;
@@ -6409,26 +6415,26 @@ div {
 
 .u370_container {
     position:absolute;
-    left:409px;
-    top:0px;
-    width:176px;
-    height:25px;
+    left:100px;
+    top:25px;
+    width:123px;
+    height:20px;
 }
 
 #u370_img {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:182px;
-    height:31px;
+    width:129px;
+    height:26px;
 }
 
 .u371 {
     position:absolute;
     left:2px;
     top:2px;
-    width:172px;
-    height:16px;
+    width:119px;
+    height:14px;
     ;
     ;
     ;
@@ -6438,12 +6444,12 @@ div {
 }
 
 .u372_normal {
-    background-image: url('../我的厨房_files/u208_normal.png');
+    background-image: url('../我的厨房_files/u204_normal.png');
 }
 
 .u372_container {
     position:absolute;
-    left:0px;
+    left:223px;
     top:25px;
     width:100px;
     height:20px;
@@ -6477,9 +6483,9 @@ div {
 
 .u374_container {
     position:absolute;
-    left:100px;
+    left:323px;
     top:25px;
-    width:123px;
+    width:39px;
     height:20px;
 }
 
@@ -6487,7 +6493,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:129px;
+    width:45px;
     height:26px;
 }
 
@@ -6495,7 +6501,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:119px;
+    width:35px;
     height:14px;
     ;
     ;
@@ -6506,14 +6512,14 @@ div {
 }
 
 .u376_normal {
-    background-image: url('../我的厨房_files/u208_normal.png');
+    background-image: url('../我的厨房_files/u376_normal.png');
 }
 
 .u376_container {
     position:absolute;
-    left:223px;
+    left:362px;
     top:25px;
-    width:100px;
+    width:47px;
     height:20px;
 }
 
@@ -6521,7 +6527,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:106px;
+    width:53px;
     height:26px;
 }
 
@@ -6529,7 +6535,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:96px;
+    width:43px;
     height:14px;
     ;
     ;
@@ -6545,9 +6551,9 @@ div {
 
 .u378_container {
     position:absolute;
-    left:323px;
+    left:409px;
     top:25px;
-    width:39px;
+    width:176px;
     height:20px;
 }
 
@@ -6555,79 +6561,11 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:45px;
-    height:26px;
-}
-
-.u379 {
-    position:absolute;
-    left:2px;
-    top:2px;
-    width:35px;
-    height:14px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u380_normal {
-    background-image: url('../我的厨房_files/u380_normal.png');
-}
-
-.u380_container {
-    position:absolute;
-    left:362px;
-    top:25px;
-    width:47px;
-    height:20px;
-}
-
-#u380_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:53px;
-    height:26px;
-}
-
-.u381 {
-    position:absolute;
-    left:2px;
-    top:2px;
-    width:43px;
-    height:14px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u382_normal {
-    background-image: url('../我的厨房_files/u382_normal.png');
-}
-
-.u382_container {
-    position:absolute;
-    left:409px;
-    top:25px;
-    width:176px;
-    height:20px;
-}
-
-#u382_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
     width:182px;
     height:26px;
 }
 
-.u383 {
+.u379 {
     position:absolute;
     left:2px;
     top:2px;
@@ -6641,13 +6579,81 @@ div {
     word-wrap:break-word;
 }
 
+.u382_normal {
+    background-image: url('../我的厨房_files/u220_normal.png');
+}
+
+.u382_container {
+    position:absolute;
+    left:0px;
+    top:45px;
+    width:100px;
+    height:20px;
+}
+
+#u382_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:26px;
+}
+
+.u383 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:96px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u384_normal {
+    background-image: url('../我的厨房_files/u384_normal.png');
+}
+
+.u384_container {
+    position:absolute;
+    left:100px;
+    top:45px;
+    width:123px;
+    height:20px;
+}
+
+#u384_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:129px;
+    height:26px;
+}
+
+.u385 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:119px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
 .u386_normal {
-    background-image: url('../我的厨房_files/u224_normal.png');
+    background-image: url('../我的厨房_files/u220_normal.png');
 }
 
 .u386_container {
     position:absolute;
-    left:0px;
+    left:223px;
     top:45px;
     width:100px;
     height:20px;
@@ -6681,9 +6687,9 @@ div {
 
 .u388_container {
     position:absolute;
-    left:100px;
+    left:323px;
     top:45px;
-    width:123px;
+    width:39px;
     height:20px;
 }
 
@@ -6691,7 +6697,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:129px;
+    width:45px;
     height:26px;
 }
 
@@ -6699,7 +6705,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:119px;
+    width:35px;
     height:14px;
     ;
     ;
@@ -6710,14 +6716,14 @@ div {
 }
 
 .u390_normal {
-    background-image: url('../我的厨房_files/u224_normal.png');
+    background-image: url('../我的厨房_files/u390_normal.png');
 }
 
 .u390_container {
     position:absolute;
-    left:223px;
+    left:362px;
     top:45px;
-    width:100px;
+    width:47px;
     height:20px;
 }
 
@@ -6725,7 +6731,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:106px;
+    width:53px;
     height:26px;
 }
 
@@ -6733,7 +6739,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:96px;
+    width:43px;
     height:14px;
     ;
     ;
@@ -6749,9 +6755,9 @@ div {
 
 .u392_container {
     position:absolute;
-    left:323px;
+    left:409px;
     top:45px;
-    width:39px;
+    width:176px;
     height:20px;
 }
 
@@ -6759,79 +6765,11 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:45px;
-    height:26px;
-}
-
-.u393 {
-    position:absolute;
-    left:2px;
-    top:2px;
-    width:35px;
-    height:14px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u394_normal {
-    background-image: url('../我的厨房_files/u394_normal.png');
-}
-
-.u394_container {
-    position:absolute;
-    left:362px;
-    top:45px;
-    width:47px;
-    height:20px;
-}
-
-#u394_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:53px;
-    height:26px;
-}
-
-.u395 {
-    position:absolute;
-    left:2px;
-    top:2px;
-    width:43px;
-    height:14px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u396_normal {
-    background-image: url('../我的厨房_files/u396_normal.png');
-}
-
-.u396_container {
-    position:absolute;
-    left:409px;
-    top:45px;
-    width:176px;
-    height:20px;
-}
-
-#u396_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
     width:182px;
     height:26px;
 }
 
-.u397 {
+.u393 {
     position:absolute;
     left:2px;
     top:2px;
@@ -6845,13 +6783,81 @@ div {
     word-wrap:break-word;
 }
 
+.u394_normal {
+    background-image: url('../我的厨房_files/u204_normal.png');
+}
+
+.u394_container {
+    position:absolute;
+    left:0px;
+    top:65px;
+    width:100px;
+    height:20px;
+}
+
+#u394_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:26px;
+}
+
+.u395 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u396_normal {
+    background-image: url('../我的厨房_files/u370_normal.png');
+}
+
+.u396_container {
+    position:absolute;
+    left:100px;
+    top:65px;
+    width:123px;
+    height:20px;
+}
+
+#u396_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:129px;
+    height:26px;
+}
+
+.u397 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:119px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
 .u398_normal {
-    background-image: url('../我的厨房_files/u208_normal.png');
+    background-image: url('../我的厨房_files/u204_normal.png');
 }
 
 .u398_container {
     position:absolute;
-    left:0px;
+    left:223px;
     top:65px;
     width:100px;
     height:20px;
@@ -6885,9 +6891,9 @@ div {
 
 .u400_container {
     position:absolute;
-    left:100px;
+    left:323px;
     top:65px;
-    width:123px;
+    width:39px;
     height:20px;
 }
 
@@ -6895,7 +6901,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:129px;
+    width:45px;
     height:26px;
 }
 
@@ -6903,7 +6909,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:119px;
+    width:35px;
     height:16px;
     ;
     ;
@@ -6914,14 +6920,14 @@ div {
 }
 
 .u402_normal {
-    background-image: url('../我的厨房_files/u208_normal.png');
+    background-image: url('../我的厨房_files/u376_normal.png');
 }
 
 .u402_container {
     position:absolute;
-    left:223px;
+    left:362px;
     top:65px;
-    width:100px;
+    width:47px;
     height:20px;
 }
 
@@ -6929,7 +6935,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:106px;
+    width:53px;
     height:26px;
 }
 
@@ -6937,7 +6943,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:96px;
+    width:43px;
     height:16px;
     ;
     ;
@@ -6953,9 +6959,9 @@ div {
 
 .u404_container {
     position:absolute;
-    left:323px;
+    left:409px;
     top:65px;
-    width:39px;
+    width:176px;
     height:20px;
 }
 
@@ -6963,79 +6969,11 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:45px;
-    height:26px;
-}
-
-.u405 {
-    position:absolute;
-    left:2px;
-    top:2px;
-    width:35px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u406_normal {
-    background-image: url('../我的厨房_files/u380_normal.png');
-}
-
-.u406_container {
-    position:absolute;
-    left:362px;
-    top:65px;
-    width:47px;
-    height:20px;
-}
-
-#u406_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:53px;
-    height:26px;
-}
-
-.u407 {
-    position:absolute;
-    left:2px;
-    top:2px;
-    width:43px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u408_normal {
-    background-image: url('../我的厨房_files/u382_normal.png');
-}
-
-.u408_container {
-    position:absolute;
-    left:409px;
-    top:65px;
-    width:176px;
-    height:20px;
-}
-
-#u408_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
     width:182px;
     height:26px;
 }
 
-.u409 {
+.u405 {
     position:absolute;
     left:2px;
     top:2px;
@@ -7049,13 +6987,81 @@ div {
     word-wrap:break-word;
 }
 
+.u406_normal {
+    background-image: url('../我的厨房_files/u220_normal.png');
+}
+
+.u406_container {
+    position:absolute;
+    left:0px;
+    top:85px;
+    width:100px;
+    height:20px;
+}
+
+#u406_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:26px;
+}
+
+.u407 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u408_normal {
+    background-image: url('../我的厨房_files/u384_normal.png');
+}
+
+.u408_container {
+    position:absolute;
+    left:100px;
+    top:85px;
+    width:123px;
+    height:20px;
+}
+
+#u408_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:129px;
+    height:26px;
+}
+
+.u409 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:119px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
 .u410_normal {
-    background-image: url('../我的厨房_files/u224_normal.png');
+    background-image: url('../我的厨房_files/u220_normal.png');
 }
 
 .u410_container {
     position:absolute;
-    left:0px;
+    left:223px;
     top:85px;
     width:100px;
     height:20px;
@@ -7089,9 +7095,9 @@ div {
 
 .u412_container {
     position:absolute;
-    left:100px;
+    left:323px;
     top:85px;
-    width:123px;
+    width:39px;
     height:20px;
 }
 
@@ -7099,7 +7105,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:129px;
+    width:45px;
     height:26px;
 }
 
@@ -7107,7 +7113,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:119px;
+    width:35px;
     height:16px;
     ;
     ;
@@ -7118,14 +7124,14 @@ div {
 }
 
 .u414_normal {
-    background-image: url('../我的厨房_files/u224_normal.png');
+    background-image: url('../我的厨房_files/u390_normal.png');
 }
 
 .u414_container {
     position:absolute;
-    left:223px;
+    left:362px;
     top:85px;
-    width:100px;
+    width:47px;
     height:20px;
 }
 
@@ -7133,7 +7139,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:106px;
+    width:53px;
     height:26px;
 }
 
@@ -7141,7 +7147,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:96px;
+    width:43px;
     height:16px;
     ;
     ;
@@ -7157,9 +7163,9 @@ div {
 
 .u416_container {
     position:absolute;
-    left:323px;
+    left:409px;
     top:85px;
-    width:39px;
+    width:176px;
     height:20px;
 }
 
@@ -7167,79 +7173,11 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:45px;
-    height:26px;
-}
-
-.u417 {
-    position:absolute;
-    left:2px;
-    top:2px;
-    width:35px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u418_normal {
-    background-image: url('../我的厨房_files/u394_normal.png');
-}
-
-.u418_container {
-    position:absolute;
-    left:362px;
-    top:85px;
-    width:47px;
-    height:20px;
-}
-
-#u418_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:53px;
-    height:26px;
-}
-
-.u419 {
-    position:absolute;
-    left:2px;
-    top:2px;
-    width:43px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u420_normal {
-    background-image: url('../我的厨房_files/u396_normal.png');
-}
-
-.u420_container {
-    position:absolute;
-    left:409px;
-    top:85px;
-    width:176px;
-    height:20px;
-}
-
-#u420_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
     width:182px;
     height:26px;
 }
 
-.u421 {
+.u417 {
     position:absolute;
     left:2px;
     top:2px;
@@ -7253,13 +7191,81 @@ div {
     word-wrap:break-word;
 }
 
+.u418_normal {
+    background-image: url('../我的厨房_files/u204_normal.png');
+}
+
+.u418_container {
+    position:absolute;
+    left:0px;
+    top:105px;
+    width:100px;
+    height:20px;
+}
+
+#u418_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:26px;
+}
+
+.u419 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u420_normal {
+    background-image: url('../我的厨房_files/u370_normal.png');
+}
+
+.u420_container {
+    position:absolute;
+    left:100px;
+    top:105px;
+    width:123px;
+    height:20px;
+}
+
+#u420_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:129px;
+    height:26px;
+}
+
+.u421 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:119px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
 .u422_normal {
-    background-image: url('../我的厨房_files/u208_normal.png');
+    background-image: url('../我的厨房_files/u204_normal.png');
 }
 
 .u422_container {
     position:absolute;
-    left:0px;
+    left:223px;
     top:105px;
     width:100px;
     height:20px;
@@ -7293,9 +7299,9 @@ div {
 
 .u424_container {
     position:absolute;
-    left:100px;
+    left:323px;
     top:105px;
-    width:123px;
+    width:39px;
     height:20px;
 }
 
@@ -7303,7 +7309,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:129px;
+    width:45px;
     height:26px;
 }
 
@@ -7311,7 +7317,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:119px;
+    width:35px;
     height:16px;
     ;
     ;
@@ -7322,14 +7328,14 @@ div {
 }
 
 .u426_normal {
-    background-image: url('../我的厨房_files/u208_normal.png');
+    background-image: url('../我的厨房_files/u376_normal.png');
 }
 
 .u426_container {
     position:absolute;
-    left:223px;
+    left:362px;
     top:105px;
-    width:100px;
+    width:47px;
     height:20px;
 }
 
@@ -7337,7 +7343,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:106px;
+    width:53px;
     height:26px;
 }
 
@@ -7345,7 +7351,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:96px;
+    width:43px;
     height:16px;
     ;
     ;
@@ -7361,9 +7367,9 @@ div {
 
 .u428_container {
     position:absolute;
-    left:323px;
+    left:409px;
     top:105px;
-    width:39px;
+    width:176px;
     height:20px;
 }
 
@@ -7371,79 +7377,11 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:45px;
-    height:26px;
-}
-
-.u429 {
-    position:absolute;
-    left:2px;
-    top:2px;
-    width:35px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u430_normal {
-    background-image: url('../我的厨房_files/u380_normal.png');
-}
-
-.u430_container {
-    position:absolute;
-    left:362px;
-    top:105px;
-    width:47px;
-    height:20px;
-}
-
-#u430_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:53px;
-    height:26px;
-}
-
-.u431 {
-    position:absolute;
-    left:2px;
-    top:2px;
-    width:43px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u432_normal {
-    background-image: url('../我的厨房_files/u382_normal.png');
-}
-
-.u432_container {
-    position:absolute;
-    left:409px;
-    top:105px;
-    width:176px;
-    height:20px;
-}
-
-#u432_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
     width:182px;
     height:26px;
 }
 
-.u433 {
+.u429 {
     position:absolute;
     left:2px;
     top:2px;
@@ -7457,13 +7395,81 @@ div {
     word-wrap:break-word;
 }
 
+.u430_normal {
+    background-image: url('../我的厨房_files/u220_normal.png');
+}
+
+.u430_container {
+    position:absolute;
+    left:0px;
+    top:125px;
+    width:100px;
+    height:20px;
+}
+
+#u430_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:26px;
+}
+
+.u431 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u432_normal {
+    background-image: url('../我的厨房_files/u384_normal.png');
+}
+
+.u432_container {
+    position:absolute;
+    left:100px;
+    top:125px;
+    width:123px;
+    height:20px;
+}
+
+#u432_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:129px;
+    height:26px;
+}
+
+.u433 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:119px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
 .u434_normal {
-    background-image: url('../我的厨房_files/u224_normal.png');
+    background-image: url('../我的厨房_files/u220_normal.png');
 }
 
 .u434_container {
     position:absolute;
-    left:0px;
+    left:223px;
     top:125px;
     width:100px;
     height:20px;
@@ -7497,9 +7503,9 @@ div {
 
 .u436_container {
     position:absolute;
-    left:100px;
+    left:323px;
     top:125px;
-    width:123px;
+    width:39px;
     height:20px;
 }
 
@@ -7507,7 +7513,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:129px;
+    width:45px;
     height:26px;
 }
 
@@ -7515,7 +7521,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:119px;
+    width:35px;
     height:16px;
     ;
     ;
@@ -7526,14 +7532,14 @@ div {
 }
 
 .u438_normal {
-    background-image: url('../我的厨房_files/u224_normal.png');
+    background-image: url('../我的厨房_files/u390_normal.png');
 }
 
 .u438_container {
     position:absolute;
-    left:223px;
+    left:362px;
     top:125px;
-    width:100px;
+    width:47px;
     height:20px;
 }
 
@@ -7541,7 +7547,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:106px;
+    width:53px;
     height:26px;
 }
 
@@ -7549,7 +7555,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:96px;
+    width:43px;
     height:16px;
     ;
     ;
@@ -7565,9 +7571,9 @@ div {
 
 .u440_container {
     position:absolute;
-    left:323px;
+    left:409px;
     top:125px;
-    width:39px;
+    width:176px;
     height:20px;
 }
 
@@ -7575,79 +7581,11 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:45px;
-    height:26px;
-}
-
-.u441 {
-    position:absolute;
-    left:2px;
-    top:2px;
-    width:35px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u442_normal {
-    background-image: url('../我的厨房_files/u394_normal.png');
-}
-
-.u442_container {
-    position:absolute;
-    left:362px;
-    top:125px;
-    width:47px;
-    height:20px;
-}
-
-#u442_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:53px;
-    height:26px;
-}
-
-.u443 {
-    position:absolute;
-    left:2px;
-    top:2px;
-    width:43px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u444_normal {
-    background-image: url('../我的厨房_files/u396_normal.png');
-}
-
-.u444_container {
-    position:absolute;
-    left:409px;
-    top:125px;
-    width:176px;
-    height:20px;
-}
-
-#u444_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
     width:182px;
     height:26px;
 }
 
-.u445 {
+.u441 {
     position:absolute;
     left:2px;
     top:2px;
@@ -7661,13 +7599,81 @@ div {
     word-wrap:break-word;
 }
 
+.u442_normal {
+    background-image: url('../我的厨房_files/u204_normal.png');
+}
+
+.u442_container {
+    position:absolute;
+    left:0px;
+    top:145px;
+    width:100px;
+    height:20px;
+}
+
+#u442_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:26px;
+}
+
+.u443 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u444_normal {
+    background-image: url('../我的厨房_files/u370_normal.png');
+}
+
+.u444_container {
+    position:absolute;
+    left:100px;
+    top:145px;
+    width:123px;
+    height:20px;
+}
+
+#u444_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:129px;
+    height:26px;
+}
+
+.u445 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:119px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
 .u446_normal {
-    background-image: url('../我的厨房_files/u208_normal.png');
+    background-image: url('../我的厨房_files/u204_normal.png');
 }
 
 .u446_container {
     position:absolute;
-    left:0px;
+    left:223px;
     top:145px;
     width:100px;
     height:20px;
@@ -7701,9 +7707,9 @@ div {
 
 .u448_container {
     position:absolute;
-    left:100px;
+    left:323px;
     top:145px;
-    width:123px;
+    width:39px;
     height:20px;
 }
 
@@ -7711,7 +7717,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:129px;
+    width:45px;
     height:26px;
 }
 
@@ -7719,7 +7725,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:119px;
+    width:35px;
     height:16px;
     ;
     ;
@@ -7730,14 +7736,14 @@ div {
 }
 
 .u450_normal {
-    background-image: url('../我的厨房_files/u208_normal.png');
+    background-image: url('../我的厨房_files/u376_normal.png');
 }
 
 .u450_container {
     position:absolute;
-    left:223px;
+    left:362px;
     top:145px;
-    width:100px;
+    width:47px;
     height:20px;
 }
 
@@ -7745,7 +7751,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:106px;
+    width:53px;
     height:26px;
 }
 
@@ -7753,7 +7759,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:96px;
+    width:43px;
     height:16px;
     ;
     ;
@@ -7769,9 +7775,9 @@ div {
 
 .u452_container {
     position:absolute;
-    left:323px;
+    left:409px;
     top:145px;
-    width:39px;
+    width:176px;
     height:20px;
 }
 
@@ -7779,79 +7785,11 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:45px;
-    height:26px;
-}
-
-.u453 {
-    position:absolute;
-    left:2px;
-    top:2px;
-    width:35px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u454_normal {
-    background-image: url('../我的厨房_files/u380_normal.png');
-}
-
-.u454_container {
-    position:absolute;
-    left:362px;
-    top:145px;
-    width:47px;
-    height:20px;
-}
-
-#u454_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:53px;
-    height:26px;
-}
-
-.u455 {
-    position:absolute;
-    left:2px;
-    top:2px;
-    width:43px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u456_normal {
-    background-image: url('../我的厨房_files/u382_normal.png');
-}
-
-.u456_container {
-    position:absolute;
-    left:409px;
-    top:145px;
-    width:176px;
-    height:20px;
-}
-
-#u456_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
     width:182px;
     height:26px;
 }
 
-.u457 {
+.u453 {
     position:absolute;
     left:2px;
     top:2px;
@@ -7865,13 +7803,81 @@ div {
     word-wrap:break-word;
 }
 
+.u454_normal {
+    background-image: url('../我的厨房_files/u220_normal.png');
+}
+
+.u454_container {
+    position:absolute;
+    left:0px;
+    top:165px;
+    width:100px;
+    height:20px;
+}
+
+#u454_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:26px;
+}
+
+.u455 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u456_normal {
+    background-image: url('../我的厨房_files/u384_normal.png');
+}
+
+.u456_container {
+    position:absolute;
+    left:100px;
+    top:165px;
+    width:123px;
+    height:20px;
+}
+
+#u456_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:129px;
+    height:26px;
+}
+
+.u457 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:119px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
 .u458_normal {
-    background-image: url('../我的厨房_files/u224_normal.png');
+    background-image: url('../我的厨房_files/u220_normal.png');
 }
 
 .u458_container {
     position:absolute;
-    left:0px;
+    left:223px;
     top:165px;
     width:100px;
     height:20px;
@@ -7905,9 +7911,9 @@ div {
 
 .u460_container {
     position:absolute;
-    left:100px;
+    left:323px;
     top:165px;
-    width:123px;
+    width:39px;
     height:20px;
 }
 
@@ -7915,7 +7921,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:129px;
+    width:45px;
     height:26px;
 }
 
@@ -7923,7 +7929,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:119px;
+    width:35px;
     height:16px;
     ;
     ;
@@ -7934,14 +7940,14 @@ div {
 }
 
 .u462_normal {
-    background-image: url('../我的厨房_files/u224_normal.png');
+    background-image: url('../我的厨房_files/u390_normal.png');
 }
 
 .u462_container {
     position:absolute;
-    left:223px;
+    left:362px;
     top:165px;
-    width:100px;
+    width:47px;
     height:20px;
 }
 
@@ -7949,7 +7955,7 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:106px;
+    width:53px;
     height:26px;
 }
 
@@ -7957,7 +7963,7 @@ div {
     position:absolute;
     left:2px;
     top:2px;
-    width:96px;
+    width:43px;
     height:16px;
     ;
     ;
@@ -7973,9 +7979,9 @@ div {
 
 .u464_container {
     position:absolute;
-    left:323px;
+    left:409px;
     top:165px;
-    width:39px;
+    width:176px;
     height:20px;
 }
 
@@ -7983,79 +7989,11 @@ div {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:45px;
-    height:26px;
-}
-
-.u465 {
-    position:absolute;
-    left:2px;
-    top:2px;
-    width:35px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u466_normal {
-    background-image: url('../我的厨房_files/u394_normal.png');
-}
-
-.u466_container {
-    position:absolute;
-    left:362px;
-    top:165px;
-    width:47px;
-    height:20px;
-}
-
-#u466_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:53px;
-    height:26px;
-}
-
-.u467 {
-    position:absolute;
-    left:2px;
-    top:2px;
-    width:43px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u468_normal {
-    background-image: url('../我的厨房_files/u396_normal.png');
-}
-
-.u468_container {
-    position:absolute;
-    left:409px;
-    top:165px;
-    width:176px;
-    height:20px;
-}
-
-#u468_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
     width:182px;
     height:26px;
 }
 
-.u469 {
+.u465 {
     position:absolute;
     left:2px;
     top:2px;
@@ -8069,7 +8007,7 @@ div {
     word-wrap:break-word;
 }
 
-.u470 {
+.u466 {
     position:absolute;
     left:345px;
     top:267px;
@@ -8083,7 +8021,7 @@ div {
     word-wrap:break-word;
 }
 
-.u471 {
+.u467 {
     position:absolute;
     left:360px;
     top:267px;
@@ -8097,7 +8035,7 @@ div {
     word-wrap:break-word;
 }
 
-.u472 {
+.u468 {
     position:absolute;
     left:375px;
     top:267px;
@@ -8111,7 +8049,7 @@ div {
     word-wrap:break-word;
 }
 
-.u473 {
+.u469 {
     position:absolute;
     left:400px;
     top:267px;
@@ -8125,7 +8063,7 @@ div {
     word-wrap:break-word;
 }
 
-.u474 {
+.u470 {
     position:absolute;
     left:425px;
     top:267px;
@@ -8139,7 +8077,7 @@ div {
     word-wrap:break-word;
 }
 
-.u475 {
+.u471 {
     position:absolute;
     left:450px;
     top:267px;
@@ -8153,7 +8091,7 @@ div {
     word-wrap:break-word;
 }
 
-.u476 {
+.u472 {
     position:absolute;
     left:475px;
     top:267px;
@@ -8167,7 +8105,7 @@ div {
     word-wrap:break-word;
 }
 
-.u477 {
+.u473 {
     position:absolute;
     left:500px;
     top:267px;
@@ -8181,7 +8119,7 @@ div {
     word-wrap:break-word;
 }
 
-.u478 {
+.u474 {
     position:absolute;
     left:525px;
     top:267px;
@@ -8195,11 +8133,11 @@ div {
     word-wrap:break-word;
 }
 
-.u479_normal {
-    background-image: url('../我的厨房_files/u343_normal.png');
+.u475_normal {
+    background-image: url('../我的厨房_files/u339_normal.png');
 }
 
-.u479_container {
+.u475_container {
     position:absolute;
     left:550px;
     top:270px;
@@ -8207,7 +8145,7 @@ div {
     height:10px;
 }
 
-#u479_img {
+#u475_img {
     position:absolute;
     left:-3px;
     top:-3px;
@@ -8215,7 +8153,7 @@ div {
     height:16px;
 }
 
-.u480 {
+.u476 {
     position:absolute;
     left:2px;
     top:-3px;
@@ -8229,7 +8167,7 @@ div {
     word-wrap:break-word;
 }
 
-.u481 {
+.u477 {
     position:absolute;
     left:565px;
     top:268px;
@@ -8243,11 +8181,11 @@ div {
     word-wrap:break-word;
 }
 
-.u482_normal {
-    background-image: url('../我的厨房_files/u346_normal.png');
+.u478_normal {
+    background-image: url('../我的厨房_files/u342_normal.png');
 }
 
-.u482_container {
+.u478_container {
     position:absolute;
     left:325px;
     top:270px;
@@ -8255,7 +8193,7 @@ div {
     height:10px;
 }
 
-#u482_img {
+#u478_img {
     position:absolute;
     left:-3px;
     top:-3px;
@@ -8263,7 +8201,7 @@ div {
     height:16px;
 }
 
-.u483 {
+.u479 {
     position:absolute;
     left:2px;
     top:-3px;
@@ -8277,12 +8215,46 @@ div {
     word-wrap:break-word;
 }
 
-.u484 {
+.u480 {
     position:absolute;
     left:270px;
     top:268px;
     width:50px;
     height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u481_normal {
+    background-image: url('../我的厨房_files/u481_normal.png');
+}
+
+.u481_container {
+    position:absolute;
+    left:115px;
+    top:3px;
+    width:174px;
+    height:54px;
+}
+
+#u481_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:174px;
+    height:54px;
+}
+
+.u482 {
+    position:absolute;
+    left:2px;
+    top:19px;
+    width:170px;
+    height:16px;
     ;
     ;
     ;

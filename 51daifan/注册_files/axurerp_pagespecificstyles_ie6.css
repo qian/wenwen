@@ -3,54 +3,64 @@
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/u0_normal.png");
 }
 
-* html .u4_normal {
+* html .u3_mouseOver {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/u4_normal.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/tab_u3_mouseOver.png");
 }
 
-* html .u7_mouseOver {
+* html .u3_mouseDown {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/tab_u7_mouseOver.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/tab_u3_mouseDown.png");
 }
 
-* html .u7_mouseDown {
+* html .u3_disabled {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/tab_u7_mouseDown.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/tab_u3_disabled.png");
 }
 
-* html .u7_disabled {
+* html .u3_normal {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/tab_u7_disabled.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/tab_u3_disabled.png");
 }
 
-* html .u7_normal {
+* html .u5_mouseOver {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/tab_u7_disabled.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/tab_u5_mouseOver.png");
 }
 
-* html .u9_mouseOver {
+* html .u5_mouseDown {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/tab_u9_mouseOver.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/tab_u5_mouseDown.png");
 }
 
-* html .u9_mouseDown {
+* html .u5_disabled {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/tab_u9_mouseDown.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/tab_u5_disabled.png");
 }
 
-* html .u9_disabled {
+* html .u5_normal {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/tab_u9_disabled.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/tab_u5_disabled.png");
 }
 
-* html .u9_normal {
+* html .u8_normal {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/tab_u9_disabled.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/u8_normal.png");
 }
 
-* html .u12_normal {
+* html .u10_normal {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/u12_normal.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/u10_normal.png");
+}
+
+* html .u12_line {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/u12_line.png");
+}
+
+* html .u13_line {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/u13_line.png");
 }
 
 * html .u14_normal {
@@ -63,123 +73,113 @@
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/u16_line.png");
 }
 
-* html .u17_line {
+* html .u22_normal {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/u17_line.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/u22_normal.png");
 }
 
-* html .u18_normal {
+* html .u32_normal {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/u18_normal.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/u22_normal.png");
 }
 
-* html .u20_line {
+* html .u42_normal {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/u20_line.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/u22_normal.png");
 }
 
-* html .u26_normal {
+* html .u52_normal {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/u26_normal.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/u22_normal.png");
 }
 
-* html .u36_normal {
+* html .u59_mouseOver {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/u26_normal.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/button_u59_mouseOver.png");
 }
 
-* html .u46_normal {
+* html .u59_mouseDown {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/u26_normal.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/button_u59_mouseDown.png");
 }
 
-* html .u56_normal {
+* html .u59_selected {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/u26_normal.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/button_u59_selected.png");
 }
 
-* html .u63_mouseOver {
+* html .u59_disabled {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/button_u63_mouseOver.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/button_u59_disabled.png");
 }
 
-* html .u63_mouseDown {
+* html .u59_normal {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/button_u63_mouseDown.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/button_u59_normal.png");
 }
 
-* html .u63_selected {
+* html .u61_line {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/button_u63_selected.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/u61_line.png");
 }
 
-* html .u63_disabled {
+* html .u62_mouseOver {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/button_u63_disabled.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/button_u59_mouseOver.png");
 }
 
-* html .u63_normal {
+* html .u62_mouseDown {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/button_u63_normal.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/button_u59_mouseDown.png");
 }
 
-* html .u65_line {
+* html .u62_selected {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/u65_line.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/button_u59_selected.png");
 }
 
-* html .u66_mouseOver {
+* html .u62_disabled {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/button_u63_mouseOver.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/button_u59_disabled.png");
 }
 
-* html .u66_mouseDown {
+* html .u62_normal {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/button_u63_mouseDown.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/button_u59_normal.png");
 }
 
-* html .u66_selected {
+* html .u64_line {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/button_u63_selected.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/u64_line.png");
 }
 
-* html .u66_disabled {
+* html .u65_mouseOver {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/button_u63_disabled.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/tab_u65_mouseOver.png");
 }
 
-* html .u66_normal {
+* html .u65_mouseDown {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/button_u63_normal.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/tab_u65_mouseDown.png");
 }
 
-* html .u68_line {
+* html .u65_disabled {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/u68_line.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/tab_u65_disabled.png");
 }
 
-* html .u69_mouseOver {
+* html .u65_normal {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/tab_u69_mouseOver.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/tab_u65_disabled.png");
 }
 
-* html .u69_mouseDown {
+* html .u68_normal {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/tab_u69_mouseDown.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/u68_normal.png");
 }
 
-* html .u69_disabled {
+* html .u70_normal {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/tab_u69_disabled.png");
-}
-
-* html .u69_normal {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/tab_u69_disabled.png");
-}
-
-* html .u72_normal {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/u72_normal.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="注册_files/u70_normal.png");
 }
 
