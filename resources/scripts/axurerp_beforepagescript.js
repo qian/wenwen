@@ -945,26 +945,17 @@ $axure = function (query) {
         if(_globalVariableValues[variable] !== undefined) return _globalVariableValues[variable];
         switch (variable) {
         case "PageName": return $axure.pageData.page.name;
-
-        case "GenYear": return $axure.pageData.generationDate.getFullYear();
-        case "GenMonth": return $axure.pageData.generationDate.getMonth() + 1;
-        case "GenMonthName": return GetMonthString($axure.pageData.generationDate.getMonth());
         case "GenDay": return $axure.pageData.generationDate.getDate();
+        case "GenMonth": return $axure.pageData.generationDate.getMonth();
+        case "GenMonthName": return GetMonthString($axure.pageData.generationDate.getMonth());
         case "GenDayOfWeek": return GetDayString($axure.pageData.generationDate.getDay());
-        case "GenTime": return $axure.pageData.generationDate.toLocaleTimeString();
-        case "GenHours": return $axure.pageData.generationDate.getHours();
-        case "GenMinutes": return $axure.pageData.generationDate.getMinutes();
-        case "GenSeconds": return $axure.pageData.generationDate.getSeconds();
+        case "GenYear": return $axure.pageData.generationDate.getFullYear();
 
-        case "Year": return new Date().getFullYear();
+        case "Day": return new Date().getDate();
         case "Month": return new Date().getMonth() + 1;
         case "MonthName": return GetMonthString(new Date().getMonth());
-        case "Day": return new Date().getDate();
         case "DayOfWeek": return GetDayString(new Date().getDay());
-        case "Time": return new Date().toLocaleTimeString();
-        case "Hours": return new Date().getHours();
-        case "Minutes": return new Date().getMinutes();
-        case "Seconds": return new Date().getSeconds();
+        case "Year": return new Date().getFullYear();
 
         case "DragX": return GetDragX();
         case "DragY": return GetDragY();

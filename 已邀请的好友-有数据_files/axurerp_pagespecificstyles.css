@@ -1,0 +1,969 @@
+﻿body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../页头_files/u68_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:35px;
+    top:2px;
+    width:1020px;
+    height:107px;
+}
+
+#u0_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1020px;
+    height:107px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:46px;
+    width:1016px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u3_normal {
+    background-image: url('../二级页头_files/u8_normal.png');
+}
+
+.u3_container {
+    position:absolute;
+    left:51px;
+    top:147px;
+    width:981px;
+    height:55px;
+}
+
+#u3_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:987px;
+    height:61px;
+}
+
+.u4 {
+    position:absolute;
+    left:2px;
+    top:20px;
+    width:977px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u5 {
+    position:absolute;
+    left:71px;
+    top:156px;
+    width:107px;
+    height:35px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u7_normal {
+    background-image: url('../二级页头_files/u12_normal.png');
+}
+
+.u7_container {
+    position:absolute;
+    left:184px;
+    top:162px;
+    width:40px;
+    height:26px;
+}
+
+#u7_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:46px;
+    height:32px;
+}
+
+.u8 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:36px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9_normal {
+    background-image: url('../二级页头_files/u14_normal.png');
+}
+
+.u9_container {
+    position:absolute;
+    left:850px;
+    top:162px;
+    width:83px;
+    height:26px;
+}
+
+#u9_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:89px;
+    height:32px;
+}
+
+.u10 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:79px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u11_normal {
+    background-image: url('../二级页头_files/u16_normal.png');
+}
+
+.u11_container {
+    position:absolute;
+    left:940px;
+    top:162px;
+    width:70px;
+    height:26px;
+}
+
+#u11_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:76px;
+    height:32px;
+}
+
+.u12 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:66px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14_normal {
+    background-image: url('../已邀请的好友-有数据_files/u14_normal.png');
+}
+
+.u14_container {
+    position:absolute;
+    left:350px;
+    top:1040px;
+    width:364px;
+    height:50px;
+}
+
+#u14_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:364px;
+    height:50px;
+}
+
+.u15 {
+    position:absolute;
+    left:2px;
+    top:17px;
+    width:360px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16 {
+    position:absolute;
+    left:59px;
+    top:119px;
+    width:349px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18 {
+    position:absolute;
+    left:59px;
+    top:220px;
+    width:216px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u19_line {
+    background-image: url('../tab-已邀请的好友_files/u19_line.png');
+}
+
+.u19_line {
+    position:absolute;
+    left:4px;
+    top:0px;
+    width:3px;
+    height:27px;
+}
+
+.u19 {
+    position:absolute;
+    left:159px;
+    top:215px;
+    width:10px;
+    height:27px;
+    
+}
+
+.u20_line {
+    background-image: url('../tab-已邀请的好友_files/u20_line.png');
+}
+
+.u20_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:112px;
+    height:3px;
+}
+
+.u20 {
+    position:absolute;
+    left:164px;
+    top:210px;
+    width:112px;
+    height:10px;
+    
+}
+
+.u21_line {
+    background-image: url('../tab-已邀请的好友_files/u21_line.png');
+}
+
+.u21_line {
+    position:absolute;
+    left:4px;
+    top:0px;
+    width:3px;
+    height:27px;
+}
+
+.u21 {
+    position:absolute;
+    left:272px;
+    top:215px;
+    width:10px;
+    height:27px;
+    
+}
+
+.u22_line {
+    background-image: url('../tab-已邀请的好友_files/u22_line.png');
+}
+
+.u22_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:755px;
+    height:3px;
+}
+
+.u22 {
+    position:absolute;
+    left:277px;
+    top:237px;
+    width:755px;
+    height:10px;
+    
+}
+
+.u23_line {
+    background-image: url('../tab-已邀请的好友_files/u23_line.png');
+}
+
+.u23_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:112px;
+    height:3px;
+}
+
+.u23 {
+    position:absolute;
+    left:52px;
+    top:237px;
+    width:112px;
+    height:10px;
+    
+}
+
+.u25 {
+    position:absolute;
+    left:65px;
+    top:296px;
+    width:115px;
+    height:160px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26 {
+    position:absolute;
+    left:205px;
+    top:297px;
+    width:115px;
+    height:160px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u27 {
+    position:absolute;
+    left:353px;
+    top:296px;
+    width:134px;
+    height:160px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u28 {
+    position:absolute;
+    left:601px;
+    top:299px;
+    width:134px;
+    height:160px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u29 {
+    position:absolute;
+    left:65px;
+    top:270px;
+    width:115px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u30 {
+    position:absolute;
+    left:207px;
+    top:270px;
+    width:115px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u31 {
+    position:absolute;
+    left:353px;
+    top:270px;
+    width:115px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u32 {
+    position:absolute;
+    left:601px;
+    top:273px;
+    width:115px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u33_line {
+    background-image: url('../已邀请的好友-有数据_files/u33_line.png');
+}
+
+.u33_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:621px;
+    height:3px;
+}
+
+.u33 {
+    position:absolute;
+    left:64px;
+    top:324px;
+    width:621px;
+    height:10px;
+    
+}
+
+.u34_line {
+    background-image: url('../已邀请的好友-有数据_files/u34_line.png');
+}
+
+.u34_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:621px;
+    height:3px;
+}
+
+.u34 {
+    position:absolute;
+    left:64px;
+    top:288px;
+    width:621px;
+    height:10px;
+    
+}
+
+.u35_line {
+    background-image: url('../已邀请的好友-有数据_files/u35_line.png');
+}
+
+.u35_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:621px;
+    height:3px;
+}
+
+.u35 {
+    position:absolute;
+    left:64px;
+    top:356px;
+    width:621px;
+    height:10px;
+    
+}
+
+.u36_line {
+    background-image: url('../已邀请的好友-有数据_files/u36_line.png');
+}
+
+.u36_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:621px;
+    height:3px;
+}
+
+.u36 {
+    position:absolute;
+    left:62px;
+    top:388px;
+    width:621px;
+    height:10px;
+    
+}
+
+.u37_line {
+    background-image: url('../已邀请的好友-有数据_files/u37_line.png');
+}
+
+.u37_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:621px;
+    height:3px;
+}
+
+.u37 {
+    position:absolute;
+    left:64px;
+    top:419px;
+    width:621px;
+    height:10px;
+    
+}
+
+.u38_line {
+    background-image: url('../已邀请的好友-有数据_files/u38_line.png');
+}
+
+.u38_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:621px;
+    height:3px;
+}
+
+.u38 {
+    position:absolute;
+    left:64px;
+    top:455px;
+    width:621px;
+    height:10px;
+    
+}
+
+.u39 {
+    position:absolute;
+    left:65px;
+    top:459px;
+    width:115px;
+    height:160px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u40 {
+    position:absolute;
+    left:205px;
+    top:460px;
+    width:115px;
+    height:160px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u41 {
+    position:absolute;
+    left:353px;
+    top:459px;
+    width:134px;
+    height:160px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u42 {
+    position:absolute;
+    left:601px;
+    top:462px;
+    width:134px;
+    height:160px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u43_line {
+    background-image: url('../已邀请的好友-有数据_files/u43_line.png');
+}
+
+.u43_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:621px;
+    height:3px;
+}
+
+.u43 {
+    position:absolute;
+    left:64px;
+    top:487px;
+    width:621px;
+    height:10px;
+    
+}
+
+.u44_line {
+    background-image: url('../已邀请的好友-有数据_files/u44_line.png');
+}
+
+.u44_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:621px;
+    height:3px;
+}
+
+.u44 {
+    position:absolute;
+    left:64px;
+    top:519px;
+    width:621px;
+    height:10px;
+    
+}
+
+.u45_line {
+    background-image: url('../已邀请的好友-有数据_files/u45_line.png');
+}
+
+.u45_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:621px;
+    height:3px;
+}
+
+.u45 {
+    position:absolute;
+    left:62px;
+    top:551px;
+    width:621px;
+    height:10px;
+    
+}
+
+.u46_line {
+    background-image: url('../已邀请的好友-有数据_files/u46_line.png');
+}
+
+.u46_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:621px;
+    height:3px;
+}
+
+.u46 {
+    position:absolute;
+    left:64px;
+    top:582px;
+    width:621px;
+    height:10px;
+    
+}
+
+.u47_line {
+    background-image: url('../已邀请的好友-有数据_files/u47_line.png');
+}
+
+.u47_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:621px;
+    height:3px;
+}
+
+.u47 {
+    position:absolute;
+    left:64px;
+    top:618px;
+    width:621px;
+    height:10px;
+    
+}
+
+.u48 {
+    position:absolute;
+    left:66px;
+    top:622px;
+    width:115px;
+    height:160px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u49 {
+    position:absolute;
+    left:206px;
+    top:623px;
+    width:115px;
+    height:160px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u50 {
+    position:absolute;
+    left:354px;
+    top:622px;
+    width:134px;
+    height:160px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u51 {
+    position:absolute;
+    left:602px;
+    top:625px;
+    width:134px;
+    height:160px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u52_line {
+    background-image: url('../已邀请的好友-有数据_files/u52_line.png');
+}
+
+.u52_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:621px;
+    height:3px;
+}
+
+.u52 {
+    position:absolute;
+    left:65px;
+    top:650px;
+    width:621px;
+    height:10px;
+    
+}
+
+.u53_line {
+    background-image: url('../已邀请的好友-有数据_files/u53_line.png');
+}
+
+.u53_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:621px;
+    height:3px;
+}
+
+.u53 {
+    position:absolute;
+    left:65px;
+    top:682px;
+    width:621px;
+    height:10px;
+    
+}
+
+.u54_line {
+    background-image: url('../已邀请的好友-有数据_files/u54_line.png');
+}
+
+.u54_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:621px;
+    height:3px;
+}
+
+.u54 {
+    position:absolute;
+    left:63px;
+    top:714px;
+    width:621px;
+    height:10px;
+    
+}
+
+.u55_line {
+    background-image: url('../已邀请的好友-有数据_files/u55_line.png');
+}
+
+.u55_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:621px;
+    height:3px;
+}
+
+.u55 {
+    position:absolute;
+    left:65px;
+    top:745px;
+    width:621px;
+    height:10px;
+    
+}
+
+.u56_line {
+    background-image: url('../已邀请的好友-有数据_files/u56_line.png');
+}
+
+.u56_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:621px;
+    height:3px;
+}
+
+.u56 {
+    position:absolute;
+    left:65px;
+    top:781px;
+    width:621px;
+    height:10px;
+    
+}
+
+.u57_normal {
+    background-image: url('../已邀请的好友-有数据_files/u57_normal.png');
+}
+
+.u57_container {
+    position:absolute;
+    left:250px;
+    top:819px;
+    width:180px;
+    height:32px;
+}
+
+#u57_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:180px;
+    height:32px;
+}
+
+.u58 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:176px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

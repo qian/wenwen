@@ -1,0 +1,27 @@
+﻿for(var i = 0; i < 242; i++) { var scriptId = 'u' + i; window[scriptId] = document.getElementById(scriptId); }
+
+$axure.eventManager.pageLoad(
+function (e) {
+
+});
+gv_vAlignTable['u115'] = 'center';gv_vAlignTable['u122'] = 'top';gv_vAlignTable['u156'] = 'center';gv_vAlignTable['u207'] = 'center';gv_vAlignTable['u130'] = 'top';gv_vAlignTable['u79'] = 'top';gv_vAlignTable['u226'] = 'center';gv_vAlignTable['u140'] = 'top';gv_vAlignTable['u17'] = 'center';gv_vAlignTable['u222'] = 'center';gv_vAlignTable['u135'] = 'top';gv_vAlignTable['u212'] = 'top';gv_vAlignTable['u229'] = 'center';gv_vAlignTable['u55'] = 'top';gv_vAlignTable['u101'] = 'top';gv_vAlignTable['u186'] = 'top';gv_vAlignTable['u48'] = 'top';gv_vAlignTable['u105'] = 'center';gv_vAlignTable['u27'] = 'top';gv_vAlignTable['u235'] = 'center';gv_vAlignTable['u138'] = 'center';gv_vAlignTable['u52'] = 'top';gv_vAlignTable['u20'] = 'center';gv_vAlignTable['u65'] = 'top';gv_vAlignTable['u120'] = 'top';gv_vAlignTable['u152'] = 'center';gv_vAlignTable['u110'] = 'center';
+u6.style.cursor = 'pointer';
+$axure.eventManager.click('u6', function(e) {
+
+if (true) {
+
+	self.location.href=$axure.globalVariableProvider.getLinkUrl('问吧-吧首页.html');
+
+}
+});
+gv_vAlignTable['u205'] = 'top';gv_vAlignTable['u108'] = 'top';gv_vAlignTable['u238'] = 'top';gv_vAlignTable['u62'] = 'top';gv_vAlignTable['u141'] = 'top';
+u11.style.cursor = 'pointer';
+$axure.eventManager.click('u11', function(e) {
+
+if (true) {
+
+	self.location.href=$axure.globalVariableProvider.getLinkUrl('问吧-吧首页.html');
+
+}
+});
+gv_vAlignTable['u75'] = 'top';gv_vAlignTable['u133'] = 'center';gv_vAlignTable['u200'] = 'top';gv_vAlignTable['u68'] = 'center';gv_vAlignTable['u89'] = 'top';gv_vAlignTable['u213'] = 'top';gv_vAlignTable['u184'] = 'top';gv_vAlignTable['u185'] = 'top';gv_vAlignTable['u103'] = 'top';gv_vAlignTable['u164'] = 'center';gv_vAlignTable['u233'] = 'center';gv_vAlignTable['u66'] = 'top';gv_vAlignTable['u112'] = 'top';gv_vAlignTable['u78'] = 'top';gv_vAlignTable['u179'] = 'center';gv_vAlignTable['u231'] = 'center';gv_vAlignTable['u57'] = 'center';gv_vAlignTable['u119'] = 'center';gv_vAlignTable['u203'] = 'top';gv_vAlignTable['u41'] = 'top';gv_vAlignTable['u172'] = 'top';gv_vAlignTable['u149'] = 'top';gv_vAlignTable['u54'] = 'top';gv_vAlignTable['u197'] = 'center';gv_vAlignTable['u88'] = 'top';gv_vAlignTable['u38'] = 'center';gv_vAlignTable['u176'] = 'top';gv_vAlignTable['u26'] = 'top';gv_vAlignTable['u174'] = 'center';gv_vAlignTable['u216'] = 'center';gv_vAlignTable['u128'] = 'center';gv_vAlignTable['u85'] = 'top';gv_vAlignTable['u51'] = 'center';gv_vAlignTable['u241'] = 'top';gv_vAlignTable['u10'] = 'top';gv_vAlignTable['u100'] = 'center';gv_vAlignTable['u202'] = 'center';gv_vAlignTable['u166'] = 'top';gv_vAlignTable['u82'] = 'top';gv_vAlignTable['u36'] = 'center';gv_vAlignTable['u30'] = 'top';gv_vAlignTable['u61'] = 'top';gv_vAlignTable['u195'] = 'top';gv_vAlignTable['u158'] = 'center';gv_vAlignTable['u74'] = 'top';gv_vAlignTable['u160'] = 'center';gv_vAlignTable['u126'] = 'center';gv_vAlignTable['u71'] = 'top';gv_vAlignTable['u181'] = 'center';gv_vAlignTable['u198'] = 'top';gv_vAlignTable['u5'] = 'top';gv_vAlignTable['u214'] = 'top';gv_vAlignTable['u43'] = 'center';gv_vAlignTable['u169'] = 'center';gv_vAlignTable['u240'] = 'center';gv_vAlignTable['u150'] = 'top';gv_vAlignTable['u106'] = 'top';gv_vAlignTable['u154'] = 'center';gv_vAlignTable['u40'] = 'center';gv_vAlignTable['u227'] = 'top';gv_vAlignTable['u139'] = 'top';gv_vAlignTable['u87'] = 'center';gv_vAlignTable['u53'] = 'top';gv_vAlignTable['u193'] = 'top';gv_vAlignTable['u192'] = 'center';gv_vAlignTable['u121'] = 'top';gv_vAlignTable['u211'] = 'center';gv_vAlignTable['u84'] = 'top';gv_vAlignTable['u63'] = 'top';gv_vAlignTable['u170'] = 'top';gv_vAlignTable['u134'] = 'top';gv_vAlignTable['u81'] = 'center';gv_vAlignTable['u177'] = 'top';gv_vAlignTable['u209'] = 'center';gv_vAlignTable['u60'] = 'center';gv_vAlignTable['u190'] = 'center';gv_vAlignTable['u102'] = 'top';gv_vAlignTable['u9'] = 'center';gv_vAlignTable['u73'] = 'center';gv_vAlignTable['u147'] = 'center';gv_vAlignTable['u91'] = 'center';gv_vAlignTable['u131'] = 'top';gv_vAlignTable['u64'] = 'top';gv_vAlignTable['u70'] = 'center';gv_vAlignTable['u24'] = 'center';gv_vAlignTable['u188'] = 'center';gv_vAlignTable['u162'] = 'center';gv_vAlignTable['u204'] = 'top';gv_vAlignTable['u117'] = 'center';gv_vAlignTable['u13'] = 'center';gv_vAlignTable['u113'] = 'top';gv_vAlignTable['u29'] = 'top';gv_vAlignTable['u175'] = 'top';gv_vAlignTable['u129'] = 'top';gv_vAlignTable['u58'] = 'top';gv_vAlignTable['u183'] = 'center';gv_vAlignTable['u111'] = 'top';gv_vAlignTable['u171'] = 'top';gv_vAlignTable['u31'] = 'top';gv_vAlignTable['u3'] = 'center';gv_vAlignTable['u15'] = 'center';gv_vAlignTable['u49'] = 'top';gv_vAlignTable['u124'] = 'center';gv_vAlignTable['u1'] = 'center';gv_vAlignTable['u148'] = 'top';gv_vAlignTable['u93'] = 'top';gv_vAlignTable['u167'] = 'top';gv_vAlignTable['u145'] = 'center';gv_vAlignTable['u237'] = 'center';gv_vAlignTable['u165'] = 'top';gv_vAlignTable['u199'] = 'top';gv_vAlignTable['u25'] = 'top';gv_vAlignTable['u224'] = 'center';gv_vAlignTable['u77'] = 'center';gv_vAlignTable['u22'] = 'center';gv_vAlignTable['u143'] = 'center';gv_vAlignTable['u220'] = 'center';gv_vAlignTable['u107'] = 'top';gv_vAlignTable['u136'] = 'top';gv_vAlignTable['u218'] = 'center';gv_vAlignTable['u28'] = 'top';gv_vAlignTable['u194'] = 'top';

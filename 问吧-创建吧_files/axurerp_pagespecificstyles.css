@@ -1,0 +1,873 @@
+﻿body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../页头_files/u68_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:35px;
+    top:2px;
+    width:1020px;
+    height:107px;
+}
+
+#u0_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1020px;
+    height:107px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:46px;
+    width:1016px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u3 {
+    position:absolute;
+    left:60px;
+    top:126px;
+    width:150px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4_normal {
+    background-image: url('../问吧-创建吧_files/u4_normal.png');
+}
+
+.u4_container {
+    position:absolute;
+    left:180px;
+    top:186px;
+    width:400px;
+    height:35px;
+}
+
+#u4_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:406px;
+    height:41px;
+}
+
+.u5 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:396px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6 {
+    position:absolute;
+    left:126px;
+    top:196px;
+    width:49px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u7 {
+    position:absolute;
+    left:100px;
+    top:629px;
+    width:90px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8 {
+    position:absolute;
+    left:180px;
+    top:629px;
+    width:100px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Tahoma';
+    font-size: 12px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u9 {
+    position:absolute;
+    left:290px;
+    top:629px;
+    width:130px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Tahoma';
+    font-size: 12px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u10 {
+    position:absolute;
+    left:126px;
+    top:262px;
+    width:50px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u11 {
+    position:absolute;
+    left:180px;
+    top:227px;
+    width:420px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12_normal {
+    background-image: url('../问吧-创建吧_files/u12_normal.png');
+}
+
+.u12_container {
+    position:absolute;
+    left:180px;
+    top:262px;
+    width:400px;
+    height:75px;
+}
+
+#u12_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:406px;
+    height:81px;
+}
+
+.u13 {
+    position:absolute;
+    left:2px;
+    top:30px;
+    width:396px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14 {
+    position:absolute;
+    left:180px;
+    top:346px;
+    width:206px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u15 {
+    position:absolute;
+    left:115px;
+    top:197px;
+    width:19px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16_normal {
+    background-image: url('../问吧-创建吧_files/u16_normal.png');
+}
+
+.u16_container {
+    position:absolute;
+    left:179px;
+    top:700px;
+    width:401px;
+    height:35px;
+}
+
+#u16_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:407px;
+    height:41px;
+}
+
+.u17 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:397px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18 {
+    position:absolute;
+    left:126px;
+    top:704px;
+    width:90px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u19 {
+    position:absolute;
+    left:179px;
+    top:740px;
+    width:420px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20_line {
+    background-image: url('../问吧-创建吧_files/u20_line.png');
+}
+
+.u20_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:970px;
+    height:3px;
+}
+
+.u20 {
+    position:absolute;
+    left:60px;
+    top:148px;
+    width:970px;
+    height:10px;
+    
+}
+
+.u21 {
+    position:absolute;
+    left:90px;
+    top:631px;
+    width:19px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u22 {
+    position:absolute;
+    left:115px;
+    top:263px;
+    width:19px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u23 {
+    position:absolute;
+    left:115px;
+    top:706px;
+    width:19px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24 {
+    position:absolute;
+    left:91px;
+    top:850px;
+    width:90px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u25_normal {
+    background-image: url('../问吧-创建吧_files/u4_normal.png');
+}
+
+.u25_container {
+    position:absolute;
+    left:180px;
+    top:844px;
+    width:400px;
+    height:35px;
+}
+
+#u25_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:406px;
+    height:41px;
+}
+
+.u26 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:396px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u27 {
+    position:absolute;
+    left:273px;
+    top:391px;
+    width:271px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u28 {
+    position:absolute;
+    left:126px;
+    top:385px;
+    width:54px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u29 {
+    position:absolute;
+    left:115px;
+    top:386px;
+    width:19px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u30 {
+    position:absolute;
+    left:179px;
+    top:890px;
+    width:410px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u31_normal {
+    background-image: url('../问吧-创建吧_files/u31_normal.png');
+}
+
+.u31_container {
+    position:absolute;
+    left:180px;
+    top:422px;
+    width:247px;
+    height:170px;
+}
+
+#u31_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:253px;
+    height:176px;
+}
+
+.u32 {
+    position:absolute;
+    left:2px;
+    top:77px;
+    width:243px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u33_normal {
+    background-image: url('../问吧-创建吧_files/u33_normal.png');
+}
+
+.u33_container {
+    position:absolute;
+    left:200px;
+    top:440px;
+    width:120px;
+    height:120px;
+}
+
+#u33_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:126px;
+}
+
+.u34 {
+    position:absolute;
+    left:2px;
+    top:52px;
+    width:116px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u35_normal {
+    background-image: url('../问吧-创建吧_files/u35_normal.png');
+}
+
+.u35_container {
+    position:absolute;
+    left:344px;
+    top:438px;
+    width:60px;
+    height:60px;
+}
+
+#u35_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:66px;
+    height:66px;
+}
+
+.u36 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:56px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u37_normal {
+    background-image: url('../问吧-创建吧_files/u37_normal.png');
+}
+
+.u37_container {
+    position:absolute;
+    left:346px;
+    top:523px;
+    width:40px;
+    height:40px;
+}
+
+#u37_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:46px;
+    height:46px;
+}
+
+.u38 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:36px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u39 {
+    position:absolute;
+    left:200px;
+    top:569px;
+    width:51px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u40 {
+    position:absolute;
+    left:346px;
+    top:499px;
+    width:51px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u41 {
+    position:absolute;
+    left:346px;
+    top:567px;
+    width:51px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u42_normal {
+    background-image: url('../问吧-创建吧_files/u42_normal.png');
+}
+
+.u42_container {
+    position:absolute;
+    left:180px;
+    top:385px;
+    width:83px;
+    height:26px;
+}
+
+#u42_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:89px;
+    height:32px;
+}
+
+.u43 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:79px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u44 {
+    position:absolute;
+    left:126px;
+    top:793px;
+    width:54px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u45 {
+    position:absolute;
+    left:115px;
+    top:794px;
+    width:19px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u46_normal {
+    background-image: url('../问吧-创建吧_files/u46_normal.png');
+}
+
+.u46_container {
+    position:absolute;
+    left:180px;
+    top:783px;
+    width:390px;
+    height:40px;
+}
+
+#u46_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:396px;
+    height:46px;
+}
+
+.u47 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:386px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u48_normal {
+    background-image: url('../问吧-创建吧_files/u48_normal.png');
+}
+
+.u48_container {
+    position:absolute;
+    left:336px;
+    top:1150px;
+    width:364px;
+    height:50px;
+}
+
+#u48_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:364px;
+    height:50px;
+}
+
+.u49 {
+    position:absolute;
+    left:2px;
+    top:17px;
+    width:360px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u50 {
+    position:absolute;
+    left:180px;
+    top:660px;
+    width:410px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u51 {
+    position:absolute;
+    left:172px;
+    top:795px;
+    width:318px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u52 {
+    position:absolute;
+    left:548px;
+    top:343px;
+    width:40px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u53_normal {
+    background-image: url('../问吧-创建吧_files/u53_normal.png');
+}
+
+.u53_container {
+    position:absolute;
+    left:180px;
+    top:944px;
+    width:120px;
+    height:46px;
+}
+
+#u53_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:52px;
+}
+
+.u54 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:116px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

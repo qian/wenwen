@@ -124,12 +124,9 @@ var WEBKIT = false;
         _messageCenter.dispatchMessage(message, data);
 
         $('iframe').each(function(index, frame) {
-            //try,catch to handle permissions error in FF when loading pages from another domain
-            try {
-                if (frame.contentWindow.$axure && frame.contentWindow.$axure.messageCenter) {
-                    frame.contentWindow.$axure.messageCenter.dispatchMessageRecursively(message, data);
-                }
-            }catch(e) {}
+            if (frame.contentWindow.$axure && frame.contentWindow.$axure.messageCenter) {
+                frame.contentWindow.$axure.messageCenter.dispatchMessageRecursively(message, data);
+            }
         });
     };
 

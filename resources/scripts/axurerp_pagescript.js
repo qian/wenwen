@@ -195,8 +195,6 @@ function ToggleWorkflow(event, id, width, height, hasWorkflow) {
 	
     if (bIE) height += 50;
 
-    MaxZIndex = MaxZIndex + 1;
-    
     var dObj = $axure.pageData.scriptIdToObject[id];
     var ann = dObj.annotation;
     var $dialog = $('<div></div>')
@@ -207,7 +205,6 @@ function ToggleWorkflow(event, id, width, height, hasWorkflow) {
 		    width: width,
 		    height: height,
 		    minHeight: 150,
-		    zIndex: MaxZIndex,
             position: [left, top],
 		    dialogClass: 'dialogFix'
 		});
@@ -731,8 +728,7 @@ function DragWidget(event) {
             y = event.changedTouches[0].pageY;
             //allow scroll (defaults) if only swipe events have cases and delta x is less than 5px and not blocking scrolling
             var deltaX = x - widgetDragInfo.currentX;
-            var target = document.getElementById(widgetDragInfo.widgetId);
-            if (widgetIdToDragFunction[widgetDragInfo.widgetId] || (deltaX * deltaX) > 25 || ($axure.pageData.options.preventScroll && GetScrollable(target) == document.body)) {
+            if (widgetIdToDragFunction[widgetDragInfo.widgetId] || (deltaX * deltaX) > 25 || $axure.pageData.options.preventScroll) {
                 event.preventDefault();
             }
         } else {
@@ -1195,18 +1191,23 @@ function GetWidgetCurrentState(id) {
 
 function SetLinkStyle(id, parentId, styleName) {
     var style = GetStyleOverridesForState(id, parentId, styleName);
-    if ($.isEmptyObject(style)) return;
-
+    if (!style || $.isEmptyObject(style)) return;
+    
+    var cssProps = GetCssStyleProperties(style);
     var textId = GetTextIdFromLink(id);
-
+    
     if (!gv_OriginalTextCache[textId]) { CacheOriginalText(textId); }
     var parentObjectCache = gv_OriginalTextCache[textId].styleCache;
 
     TextTransformWithVerticalAlignment(textId, function () {
-        var cssProps = GetCssStyleProperties(style);
-        $('#' + id).find('*').andSelf().each(function (index, element) {
+        $('#' + id).find('*').andSelf().each(function(index, element) {
             element.setAttribute('style', parentObjectCache[element.id]);
-            ApplyCssProps(element, cssProps);
+            var nodeName = element.nodeName.toLowerCase();
+            if (nodeName != 'p' && nodeName != 'a') {
+                for (var prop in cssProps) {
+                    element.style[prop] = cssProps[prop];
+                }
+            }
         });
     });
 }
@@ -1245,7 +1246,7 @@ function SetLinkNotMouseDown(id) {
     ResetLinkStyle(id);
     
     var style = GetStyleOverridesForState(id, $axure.eventManager.mouseOverObjectId, "mouseOver");
-    if(!$.isEmptyObject(style)) {
+    if (style) {
         SetLinkHover(id);
     } // we dont do anything here bocause the widget not mouse down has taken over here
 }
@@ -1262,9 +1263,8 @@ function SetWidgetMouseDown(id, bringFront) {
 
 function SetWidgetNotMouseDown(id, bringFront) {
     if (IsWidgetSelected(id) || IsWidgetDisabled(id)) { return; }
-    var widgetObject = $axure.pageData.scriptIdToObject[id];
-    var hasMouseOver = widgetObject && widgetObject.style && widgetObject.style.stateStyles && widgetObject.style.stateStyles.mouseOver;
-    if(hasMouseOver) {
+    var style = GetStyleOverridesForState(id, null, 'mouseOver');
+    if (style) {
         SetWidgetHover(id, bringFront);
     } else {
         SetWidgetOriginal(id, bringFront);
@@ -1276,29 +1276,18 @@ var gv_SelectedWidgets = new Object();
 function SetWidgetSelected(id) {
     var group = $('#' + id).attr('selectiongroup');
     if (group) {
-        $("[selectiongroup='" + group + "'][visibility!='hidden']").each(function (i, obj) {
+        $("[selectiongroup='" + group + "'][visibility!='hidden']").each(function (i,obj) {
             SetWidgetNotSelected($(obj).attr('id'));
         });
     }
 
-    var widgetObject = $axure.pageData.scriptIdToObject[id];
-    if (widgetObject) {
-        while (widgetObject.isContained) widgetObject = widgetObject.parent;
-        var hasSelected = widgetObject && widgetObject.style && widgetObject.style.stateStyles && widgetObject.style.stateStyles.selected;
-        if (hasSelected) ApplyImageAndTextJson(id, 'selected', false, false);
-    }
-    
+    ApplyImageAndTextJson(id, 'selected', false, false);
     gv_SelectedWidgets[id] = 'true';
 }
 
 function SetWidgetNotSelected(id) {
-    var widgetObject = $axure.pageData.scriptIdToObject[id];
-    if (widgetObject) {
-        while (widgetObject.isContained) widgetObject = widgetObject.parent;
-        var hasSelected = widgetObject && widgetObject.style && widgetObject.style.stateStyles && widgetObject.style.stateStyles.selected;
-        if (hasSelected) SetWidgetOriginal(id, false);
-    }
-    
+    SetWidgetOriginal(id, false);
+
     gv_SelectedWidgets[id] = 'false';
 }
 
@@ -1357,8 +1346,11 @@ function ApplyImageAndTextJson(id, event, bringToFront, isOriginal) {
             $('#' + id + '_img').trigger(event);
         }
         var style = GetStyleOverridesForState(id, null, event);
-        ApplyImageStyle(id, event, style);
-        if(!$.isEmptyObject(style)) ApplyTextStyle(textid, style);
+        if (style) {
+            var cssStylePropsToApply = GetCssStyleProperties(style);            
+            ApplyImageStyle(id, event, style);
+            ApplyTextStyle(textid, cssStylePropsToApply);
+        }
     }
 
     if (bringToFront) { BringToFront(id + '_container'); BringToFront(id); BringToFront(id + 'ann'); }
@@ -1396,6 +1388,23 @@ function GetFullStateStyle(style, state) {
         return $.extend(customStyle || {}, stateStyle);
     }
     return { };
+}
+
+function GetCssStyleProperties(style) {
+    var toApply = {};
+    if (style.italic !== undefined) toApply.fontStyle = style.italic ? 'italic' : 'normal';
+    if (style.bold !== undefined) toApply.fontWeight = style.bold ? 'bold' : 'normal';
+    if (style.underline !== undefined) toApply.textDecoration = style.underline ? 'underline' : 'none';
+    if (style.fontName) toApply.fontFamily = style.fontName;
+    if (style.fontSize) toApply.fontSize = style.fontSize;
+    if (style.horizontalAlignment) toApply.textAlign = style.horizontalAlignment;
+    if (style.foreGroundFill) {
+        var colorString = '00000' + style.foreGroundFill.color.toString(16);
+        toApply.color = '#' + colorString.substring(colorString.length - 6);
+    }
+    if (style.lineSpacing) toApply.lineHeight = style.lineSpacing;
+    
+    return toApply;
 }
 
 function ApplyImageStyle(id, event, style) {
@@ -1489,45 +1498,17 @@ function TextTransformWithVerticalAlignment(textId, transformFn) {
 //                         { 'fontWeight' : 'bold',
 //                           'fontStyle' : 'italic' }
 //-------------------------------------------------------------------------
-function ApplyTextStyle(id, style) {
-    TextTransformWithVerticalAlignment(id, function () {
-        var styleProperties = GetCssStyleProperties(style);
+function ApplyTextStyle(id, styleProperties) {
+    TextTransformWithVerticalAlignment(id, function() {
         $('#' + id + "_rtf").find('*').each(function (index, element) {
-            ApplyCssProps(element, styleProperties);
+            var nodeName = element.nodeName.toLowerCase();
+            if (nodeName != 'p' && nodeName != 'a') {
+                for (var prop in styleProperties) {
+                    element.style[prop] = styleProperties[prop];
+                }
+            }
         });
     });
-}
-
-function ApplyCssProps(element, styleProperties) {
-    var nodeName = element.nodeName.toLowerCase();
-    if(nodeName == 'p') {
-        var parProps = styleProperties.parProps;
-        for(var prop in parProps) element.style[prop] = parProps[prop];
-    } else if(nodeName != 'a') {
-        var runProps = styleProperties.runProps;
-        for(prop in runProps) element.style[prop] = runProps[prop];
-    }
-}
-
-function GetCssStyleProperties(style) {
-    var toApply = {};
-    toApply.runProps = {};
-    toApply.parProps = {};
-
-    if(style.italic !== undefined) toApply.runProps.fontStyle = style.italic ? 'italic' : 'normal';
-    if(style.bold !== undefined) toApply.runProps.fontWeight = style.bold ? 'bold' : 'normal';
-    if(style.underline !== undefined) toApply.runProps.textDecoration = style.underline ? 'underline' : 'none';
-    if(style.fontName) toApply.runProps.fontFamily = style.fontName;
-    if(style.fontSize) toApply.runProps.fontSize = style.fontSize;
-    if(style.foreGroundFill) {
-        var colorString = '00000' + style.foreGroundFill.color.toString(16);
-        toApply.runProps.color = '#' + colorString.substring(colorString.length - 6);
-    }
-
-    if(style.horizontalAlignment) toApply.parProps.textAlign = style.horizontalAlignment;
-    if(style.lineSpacing) toApply.parProps.lineHeight = style.lineSpacing;
-
-    return toApply;
 }
 
 //    //--------------------------------------------------------------------------
